@@ -2,3 +2,10 @@
 name: ctvision
 title: CT Vision
 version: 1.0
+start_page: about-ct-vision.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+nav:
+- modules/ROOT/nav.adoc
