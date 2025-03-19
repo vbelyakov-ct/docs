@@ -3,7 +3,7 @@ site:
   start_page: ctvision::about-ct-vision.adoc
 content:
   sources:
-  - url: git@github.com:vbelyakov-ct/docs.git
+  - url: https://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@github.com/vbelyakov-ct/demo.git
     branches: main
     start_path: docs
 ui:
