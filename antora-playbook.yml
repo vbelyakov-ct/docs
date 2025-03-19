@@ -1,0 +1,8 @@
+site:
+  title: My Antora Site
+content:
+  sources:
+    - url: ./docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/archive/master/antora-ui-default-master.zip
