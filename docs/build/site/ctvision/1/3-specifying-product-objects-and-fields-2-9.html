@@ -58,7 +58,7 @@
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
   <li class="nav-item" data-depth="1">
-    <a class="nav-link" href="#about-ct-vision.adoc">about-ct-vision.adoc</a>
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
@@ -99,6 +99,7 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">CT Vision</a></li>
@@ -114,11 +115,6 @@
 <div class="paragraph">
 <p>Specify the product fields to send their values for processing and
 storing on the server.</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>+</pre>
-</div>
 </div>
 <div class="paragraph">
 <p>Go to the <strong>CT Vision</strong> app and open the <strong>CT Vision Setup</strong> tab.</p>
@@ -144,11 +140,6 @@ Mobile Managed Package Update to v. 3.54] description.</p>
 <li>
 <p><a href="3-specifying-product-objects-and-fields-2-9.html#h2__1362989108">Product
 Object Setting</a></p>
-<div class="literalblock">
-<div class="content">
-<pre>+</pre>
-</div>
-</div>
 </li>
 </ul>
 </div>
@@ -162,8 +153,10 @@ Configuration</strong> section to connect to the CT Vision server.</p>
 <div class="paragraph">
 <p>In case of any errors, contact the Customertimes team.</p>
 </div>
-<div class="paragraph">
-<p><span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/fields-mapping-on-product-and-product-image-objects-2021-09-29-2.png" alt="image"></span></p>
+<div class="imageblock">
+<div class="content">
+<img src="_images/fields-mapping-on-product-and-product-image-objects-2021-09-29-2.png" alt="image">
+</div>
 </div>
 <div id="h2__1362989108" class="paragraph">
 <p>Product Object
@@ -184,7 +177,7 @@ Setting<a href="3-specifying-product-objects-and-fields-2-9.html#h2__1362989108"
 desired Product<em> </em>object.</p>
 </li>
 <li>
-<p>In the<strong> Product Key Code</strong> picklist, select the desired field.<br>
+<p>In the<strong> Product Key Code</strong> picklist, select the desired field.
 Use any suitable field that contains a unique product identifier, such
 as EAN or CTCPG<em>ExternalId</em>c. This field is used for mapping
 the Product object in Salesforce and the server.</p>
@@ -193,12 +186,12 @@ the Product object in Salesforce and the server.</p>
 </div>
 </li>
 <li>
-<p>Click <strong>Save</strong>.<br>
-<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/General%20Configuration%20Product%20Object-2.9.png" alt="image"></span><br></p>
+<p>Click <strong>Save</strong>.
+image::General%20Configuration%20Product%20Object-2.9.png[image]</p>
 </li>
 <li>
 <p>Allow Salesforce to create a field with the <strong>Lookup</strong> type when
-prompted for the specified Product object.<br></p>
+prompted for the specified Product object.</p>
 </li>
 </ol>
 </div>
@@ -207,15 +200,10 @@ prompted for the specified Product object.<br></p>
 automatically created on the Product Image object to relate it with the
 specified Product object.</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>+</pre>
-</div>
-</div>
 <div class="paragraph">
 <p>Check the user profile permissions to make sure the newly created lookup
-is available for all required users:<br>
-<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/about-ct-vision-2021-12-21.png" alt="image"></span></p>
+is available for all required users:
+image::about-ct-vision-2021-12-21.png[image]</p>
 </div>
 </div>
 </article>
