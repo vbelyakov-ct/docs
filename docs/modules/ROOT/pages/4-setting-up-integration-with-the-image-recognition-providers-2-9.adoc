@@ -5,11 +5,9 @@ assigned to the specific group of _Users_, _Accounts_, or any object
 that has a *Lookup* type field to associate with a
 specific Activity object.
 
- +
 
 Go to the CT Vision app and open the *CT Vision Setup* tab.
 
- +
 
 image::Provider Comfiguration v.2.png[image]
 
