@@ -11,7 +11,7 @@ Go to the CT Vision app and open the *CT Vision Setup* tab.
 
  +
 
-image:../Storage/ct-vision-ir-en-publication/Provider%20Comfiguration%20v.2.png[image]
+image::Provider Comfiguration v.2.png[image]
 
 [[h2_1620541365]]
 Set up Providers 
