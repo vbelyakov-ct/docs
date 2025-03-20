@@ -41,3 +41,5 @@ CG Cloud solution].
 Light]. Select this provider when image recognition is not required. 
 
 The setup is complete.
+
+1111
