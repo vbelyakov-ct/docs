@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: CT Vision</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">CT Vision</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ctvision" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">CT Vision</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-creating-vision-settings-records-2-9.html">2-creating-vision-settings-records-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-specifying-product-objects-and-fields-2-9.html">3-specifying-product-objects-and-fields-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-setting-up-integration-with-the-image-recognition-providers-2-9.html">4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">CT Vision</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">CT Vision</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>To recognize products on the shelves, the IR provider must be allowed to
+interact with product data in Salesforce. Specify the product fields to
+send their values for processing and storing on the server.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Go to the <strong>CT Vision</strong> app and open the <strong>CT Vision Setup</strong> tab.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h2__1981203353">Authorization</a></p>
+</li>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h2_1194545519">Cloud
+Token</a></p>
+</li>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h2__1362989108">Product
+Object Setting</a></p>
+</li>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h2__2130197288">Product
+Image Setting</a></p>
+</li>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h2_166351641">Feedback
+Loop</a></p>
+</li>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h3_1366151624">Photo
+Description</a></p>
+</li>
+<li>
+<p><a href="specifying-product-objects-and-fields.html#h3_1711109790">Custom
+Filters</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/CT%20Vision%20General%20Configuration.png" alt="image"></span></p>
+</div>
+<div id="h2__1981203353" class="paragraph">
+<p>Authorization
+<a href="specifying-product-objects-and-fields.html#h2__1981203353" class="bare">specifying-product-objects-and-fields.html#h2__1981203353</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub></p>
+</div>
+<div class="paragraph">
+<p>If the Salesforce org was not yet registered on the CT Vision service
+side, click the <strong>Authorize</strong> button in the <strong>General Configuration</strong>
+section to connect to the CT Vision server.</p>
+</div>
+<div class="paragraph">
+<p>In case of any errors, contact the Customertimes team.</p>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/fields-mapping-on-product-and-product-image-objects-2021-09-29-2.png" alt="image"></span></p>
+</div>
+<div id="h2_1194545519" class="paragraph">
+<p>Cloud
+Token<a href="specifying-product-objects-and-fields.html#h2_1194545519" class="bare">specifying-product-objects-and-fields.html#h2_1194545519</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>To download all required CT Vision IR objects and apply the CT Vision IR
+module logic, go
+to https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-tools/a/h3_2011978[CT
+Mobile Control Panel:
+Tools]/https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-tools-new/a/h2_2011978[CT
+Mobile Control Panel 2.0: Tools] tab and check that the cloud token is
+added.</p>
+</div>
+<div class="paragraph">
+<p>Currently, the cloud token may be stored in two custom settings, and the
+CT Vision IR retrieves it based on the combination of the CT Mobile
+package version and the used CT Mobile app version. For more
+information, refer to
+the https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-managed-package-update-to-v-3-54[CT
+Mobile Managed Package Update to v. 3.54] description.</p>
+</div>
+<div id="h2__1362989108" class="paragraph">
+<p>Product Object Setting
+<a href="specifying-product-objects-and-fields.html#h2__1362989108" class="bare">specifying-product-objects-and-fields.html#h2__1362989108</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub></p>
+</div>
+<div class="paragraph">
+<p>To specify the corresponding Product object:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On the <strong>Product Object Setting</strong> tab, specify the required fields:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>In the <strong>Product Object</strong> picklist, select the desired Product __
+object.</p>
+</li>
+<li>
+<p>In the <strong>Product Key Code</strong> picklist, select the desired field.<br>
+Use any suitable field that contains a unique product identifier, such
+as EAN or CTCPG<em>ExternalId</em>c. This field is used for mapping the
+Product object in Salesforce and the server.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Specify additional fields, such as product size, group, or category,
+if needed.</p>
+</li>
+<li>
+<p>In the <strong>Select fields for mapping</strong> section, add the fields from step
+2 from the <strong>Available</strong> section to the <strong>Selected</strong> section to send them to
+the server.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.<br>
+<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/General%20Configuration%20Product%20Object.png" alt="image"></span><br></p>
+</li>
+<li>
+<p>Allow Salesforce to create a field with the <strong>Lookup</strong> type when
+prompted for the specified Product object.<br></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete. The field with the <strong>Lookup</strong> type will be
+automatically created on the Product Image object to relate it with the
+specified Product object.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Check the user profile permissions to make sure the newly created lookup
+is available for all required users:<br>
+<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/about-ct-vision-2021-12-21.png" alt="image"></span></p>
+</div>
+<div id="h2__2130197288" class="paragraph">
+<p>Product Image Setting
+<a href="specifying-product-objects-and-fields.html#h2__2130197288" class="bare">specifying-product-objects-and-fields.html#h2__2130197288</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>Select fields of the Product Image object that store all required
+information to send them to the CT Vision server to train the provider&#8217;s
+neural networks. This information along with the marketing photo of a
+product can be displayed on the <em>Product</em> record.<br></p>
+</div>
+<div class="paragraph">
+<p>For more information, refer
+to <a href="adding-information-for-products-to-be-recognized.html">Adding
+Information for Products to be Recognized</a>.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On the <strong>Product Image Setting</strong> tab, add desired fields from the
+<strong>Available</strong> to <strong>Selected</strong> section.<br>
+<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/General%20Configuration%20Product%20Image.png" alt="image"></span></p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.<br></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete.</p>
+</div>
+<div id="h2_166351641" class="paragraph">
+<p>Feedback Loop
+<a href="specifying-product-objects-and-fields.html#h2_166351641" class="bare">specifying-product-objects-and-fields.html#h2_166351641</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~</p>
+</div>
+<div class="paragraph">
+<p>Specify the fields to display under the taken photo on the
+<a href="working-with-ct-vision-in-salesforce.html">Feedback Loop</a> page.</p>
+</div>
+<div class="paragraph">
+<p>The name of an Activity object
+or <a href="configuring-ct-vision-to-work-with-a-custom-activity-object.html">a
+custom Activity object</a> is displayed under the taken photo by default
+and cannot be removed or replaced.<br></p>
+</div>
+<div id="h3_1366151624" class="paragraph">
+<p>Photo Description
+<a href="specifying-product-objects-and-fields.html#h3_1366151624" class="bare">specifying-product-objects-and-fields.html#h3_1366151624</a>
+<sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup></p>
+</div>
+<div class="paragraph">
+<p>To set up fields to display:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On the <strong>Feedback Loop</strong> page, click the <strong>Add Object</strong> button.</p>
+</li>
+<li>
+<p>In the <strong>Activity Object</strong> field, select the required object.</p>
+</li>
+<li>
+<p>Add fields to display from the <strong>Available</strong> section to
+the <strong>Selected</strong> section. <br>
+<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/General%20Configuration%20Feedback%20Loop.png" alt="image"></span></p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Click the <strong>Add Object</strong> button to specify fields to display to another
+Activity object if needed.</p>
+</li>
+<li>
+<p>Click the bin next to the desired Activity object to delete the
+setting.</p>
+</li>
+</ul>
+</div>
+<div id="h3_1711109790" class="paragraph">
+<p>Custom Filters
+<a href="specifying-product-objects-and-fields.html#h3_1711109790" class="bare">specifying-product-objects-and-fields.html#h3_1711109790</a>
+<sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup></p>
+</div>
+<div class="paragraph">
+<p>Specify desired criteria to filter records for the selected Activity
+object on the <strong>Feedback Loop</strong> page. Criteria are specified by the help
+of the SOQL builder and has up to 5 nested levels of related objects.</p>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/General%20Configuration%20Feedback%20Loop%20Custom%20Filters.png" alt="image"></span></p>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: CT Vision</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">CT Vision</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ctvision" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">CT Vision</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-creating-vision-settings-records-2-9.html">2-creating-vision-settings-records-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-specifying-product-objects-and-fields-2-9.html">3-specifying-product-objects-and-fields-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-setting-up-integration-with-the-image-recognition-providers-2-9.html">4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">CT Vision</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">CT Vision</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>To use CT Vision IR as a module within the CT Mobile app, set up the
+integration on the <strong>CT Mobile Control Panel</strong> tab.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2_395000743">System
+Label</a></p>
+</li>
+<li>
+<p><a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2__242242597">JSON
+Web Token</a></p>
+</li>
+<li>
+<p><a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2_1279472645">Specify
+CT Vision IR Objects to Use in the CT Mobile App</a></p>
+</li>
+<li>
+<p><a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2__59853629">Add
+CT Vision IR to CT Mobile app</a></p>
+</li>
+<li>
+<p><a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2__521416285">Add
+Pictures Gallery to the Mobile Layout</a></p>
+</li>
+</ul>
+</div>
+<div id="h2_395000743" class="paragraph">
+<p>System Label
+<a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2_395000743" class="bare">configuring-ct-mobile-for-work-with-ct-vision.html#h2_395000743</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>Not in use in case of the integration with the CG Cloud solution.</p>
+</div>
+<div class="paragraph">
+<p>Create the MobileId__c field on the required Activity object in order to
+identify whether a record has been created on a mobile device or in
+Salesforce. Photos taken on a mobile device will be attached only to the
+records with the specified Mobile Id, and the taken photos will be
+stored on a mobile device up to 7 days.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For more information, go to the
+<a href="https://help.customertimes.com/articles/ct-mobile-ios-en/system-label">System
+Label</a> article.</p>
+</div>
+<div id="h2__242242597" class="paragraph">
+<p>JSON Web Token
+<a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2__242242597" class="bare">configuring-ct-mobile-for-work-with-ct-vision.html#h2__242242597</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>Photos taken in CT Mobile using the CT Vision IR module are sent to the
+server for recognition. To connect to the server, the CT Mobile app
+sends that pair of the Salesforce Org Id in the 18-digit format and the
+valid cloud token to the server, and the server generates a JSON Web
+token.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The JSON Web token is used each time the CT Mobile app connects to the
+server. If the JSON Web token is not received or is invalid, photos will
+not be sent to the server.</p>
+</li>
+<li>
+<p>The generated JSON Web Token lifetime is 1 year.</p>
+</li>
+</ul>
+</div>
+<div id="h2_1279472645" class="paragraph">
+<p>Specify CT Vision IR Objects to Use in the CT Mobile App
+<a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2_1279472645" class="bare">configuring-ct-mobile-for-work-with-ct-vision.html#h2_1279472645</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>Specify the following to enable CT Vision IR logic within the CT Mobile
+app:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to
+<a href="https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-general">CT
+Mobile Control Panel: General</a> tab.</p>
+</li>
+<li>
+<p>Under the <strong>Object Mappings</strong> section, specify the API name of the
+Product object used by CT Vision IR in the <strong>Product Object API Name</strong>
+field.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+<li>
+<p>Go to
+<a href="https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-offline-objects">CT
+Mobile Control Panel: Offline Objects</a> tab.</p>
+</li>
+<li>
+<p>Add the objects used by the CT Vision IR module to the <strong>Selected</strong>
+field:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>An object (or objects) that you use as Activity and Activity Data.</p>
+</li>
+<li>
+<p>If you use CT Vision IR for training the recognition model, also add
+the Product Image object to the selection.</p>
+</li>
+<li>
+<p>If you use <a href="adding-photo-tags.html">photo tags</a>, also add the Tag
+object to the selection.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+<li>
+<p>Go to
+<a href="https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-calendar">CT
+Mobile Control Panel: Calendar</a> tab.</p>
+</li>
+<li>
+<p>Create an <strong>Activity Setting</strong> for each of the API names of the
+Activity object used by CT Vision IR and specified in the <strong>Activity
+Object API Name</strong> field.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete.</p>
+</div>
+<div id="h2__59853629" class="paragraph">
+<p>Add CT Vision IR to CT Mobile app
+<a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2__59853629" class="bare">configuring-ct-mobile-for-work-with-ct-vision.html#h2__59853629</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>To add the CT Vision IR module to the
+<a href="https://help.customertimes.com/articles/ct-mobile-ios-en/app-menu">application
+menu</a>:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>In CT Mobile Control Panel<br></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to
+<a href="https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-app-menu">CT
+Mobile Control Panel: App Menu</a> tab.</p>
+</li>
+<li>
+<p>Select the required profile in the <strong>Location</strong> picklist.<br>
+<strong>General Settings</strong> will be applied to all the profiles without
+individual settings.<br></p>
+</li>
+<li>
+<p>Click
+the <span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/ct-mobile-ios-en/CMPD/attachments/26613393/62562571.png" alt="image"></span>
+button to open the <strong>Add menu item</strong> tool.</p>
+</li>
+<li>
+<p>Click <strong>Add custom</strong> and enter <em>ctvision</em> in the appeared field.</p>
+</li>
+<li>
+<p>Click <strong>Add</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.<br></p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>In CT Mobile Control Panel 2.0<br></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go
+to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
+Mobile Control Panel 2.0: App Menu] tab.</p>
+</li>
+<li>
+<p>Select the required profile in the <strong>Profile</strong> picklist. To apply
+settings to all the profiles, select <strong>General Settings</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Show Module Menu</strong>.</p>
+</li>
+<li>
+<p>On the <strong>All</strong> or <strong>Integrations</strong> tab, select the <strong>Vision</strong> item.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The CT Vision IR module is added to the CT Mobile app.</p>
+</div>
+<div id="h2__521416285" class="paragraph">
+<p>Add Pictures Gallery to the Mobile Layout
+<a href="configuring-ct-mobile-for-work-with-ct-vision.html#h2__521416285" class="bare">configuring-ct-mobile-for-work-with-ct-vision.html#h2__521416285</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p><a href="working-with-ct-vision-in-the-ct-mobile-app.html#h2_566778463">Pictures</a>
+allows users to view the photos they have taken on the <em>Account</em> record
+details screen.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To add the <strong>Pictures</strong> tab to the mobile layout:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to <strong>Setup → Object Manager  →</strong> select the Account object.</p>
+</li>
+<li>
+<p>Go to <strong>Page Layouts →</strong> click the required page layout.</p>
+</li>
+<li>
+<p>Drag and drop the <strong>Section</strong> element to the <strong>Account Detail</strong> area.
+ The <strong>Section Properties</strong> window opens.</p>
+</li>
+<li>
+<p>Type in <em>PICTURES</em> in the <strong>Section Name</strong> field, and select the
+1-Column layout.</p>
+</li>
+<li>
+<p>Click <strong>OK</strong>.</p>
+</li>
+<li>
+<p>Drag and drop the <strong>Blank Space</strong> element below the <strong>Pictures</strong>
+element.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete.</p>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

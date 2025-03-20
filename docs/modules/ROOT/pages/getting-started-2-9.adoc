@@ -1,4 +1,0 @@
-In this section, learn now to install and initially configure the CT
-Vision IR:
-
- +

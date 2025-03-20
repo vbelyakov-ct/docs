@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: CT Vision</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">CT Vision</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ctvision" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">CT Vision</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-creating-vision-settings-records-2-9.html">2-creating-vision-settings-records-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-specifying-product-objects-and-fields-2-9.html">3-specifying-product-objects-and-fields-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-setting-up-integration-with-the-image-recognition-providers-2-9.html">4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">CT Vision</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">CT Vision</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>Prepare your Salesforce organization to enable easy configuration of CT
+Vision IR and the ability to work with recognized images.</p>
+</div>
+<div class="paragraph">
+<p>After customization, check permissions to make sure they are granted to
+required user profiles.</p>
+</div>
+<div class="paragraph">
+<p><a href="preparing-the-salesforce-instance.html#h2__200909819">1. Create CTM
+Settings Fields</a></p>
+</div>
+<div class="paragraph">
+<p><a href="preparing-the-salesforce-instance.html#h2_1013205226">2. Create CTM
+Settings Record Types</a></p>
+</div>
+<div class="paragraph">
+<p><a href="preparing-the-salesforce-instance.html#h3_585696333">3. Add New
+Values to the Type Field</a></p>
+</div>
+<div class="paragraph">
+<p><a href="preparing-the-salesforce-instance.html#h2__242260294">4. Prepare
+Layout for the Vision Setup</a></p>
+</div>
+<div class="paragraph">
+<p><a href="preparing-the-salesforce-instance.html#h2__682569336">5. Assign
+Permission Set for Administrators</a></p>
+</div>
+<div id="h2__200909819" class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create CTM Settings Fields
+<a href="preparing-the-salesforce-instance.html#h2__200909819" class="bare">preparing-the-salesforce-instance.html#h2__200909819</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Check that the following fields are created on the CTM Settings object
+that will be used in the CT Vision IR logic. If any of these fields is
+missing, create it manually:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 34%;">
+<col style="width: 33%;">
+<col style="width: 33%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Field</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>API Name</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Type</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Colors<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>Colors</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Component<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>Component</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Default View<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>View</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Editable</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">IsEditable__c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enable Gallery</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">IsGalleryEnabled__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enable Simple View<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enable_simple_view__c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Get Geolocation<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>IsGetGeolocationEnabled</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Icon</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Icon__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Field Key</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FieldKey__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">​Text(255)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fields To Display</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FieldsToDisplay__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">KPI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">KPI__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Label<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>Label</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Object Record Type<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>ObjectRecordType</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Order<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>Order</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number(18,0)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number(18,0)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provider</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provider__c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">​Text(255)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clm<em>Type</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vision Object<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VisionObject__c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+</tr>
+</tbody>
+</table>
+<div id="h2_1013205226" class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Create CTM Settings Record Types
+<a href="preparing-the-salesforce-instance.html#h2_1013205226" class="bare">preparing-the-salesforce-instance.html#h2_1013205226</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Create new record types for the CTM Settings object and set up layouts
+for each record type to set up CT Vision IR layouts and enable various
+CT Vision IR functionalities:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="vision-account-object-field-reference.html">Vision Account</a></p>
+</li>
+<li>
+<p><a href="vision-info-field-reference.html">Vision Info</a></p>
+</li>
+<li>
+<p><a href="vision-hint-field-reference.html">Vision Hint</a></p>
+</li>
+<li>
+<p><a href="vision-kpi-field-reference.html">Vision KPI</a></p>
+</li>
+<li>
+<p><a href="vision-product-list-field-reference.html">Vision Product List</a></p>
+</li>
+<li>
+<p><a href="vision-shelf-field-reference.html">Vision Shelf</a></p>
+</li>
+<li>
+<p><a href="vision-visit-field-reference.html">Vision Visit</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Click the link to view the required fields and their description for the
+corresponding record type. To create record
+types, https://help.salesforce.com/s/articleView?id=sf.creating_record_types.htm&amp;type=5[refer
+to Salesforce Help].</p>
+</div>
+<div id="h3_585696333" class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Add New Values to the Type Field
+<a href="preparing-the-salesforce-instance.html#h3_585696333" class="bare">preparing-the-salesforce-instance.html#h3_585696333</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Specify new values for the clm<em>Type</em>c picklist:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>For the <strong>Vision Shelf</strong> record type:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Photo</p>
+</li>
+<li>
+<p>Collection</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>For the <strong>Vision KPI</strong> record type:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Percent</p>
+</li>
+<li>
+<p>Amount</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>For the <strong>Vision Product List</strong> record type:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Checkbox</p>
+</li>
+<li>
+<p>Double(16,2)</p>
+</li>
+<li>
+<p>Number(18,0)</p>
+</li>
+<li>
+<p>Text</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div id="h2__242260294" class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Prepare Layout for the Vision Setup
+<a href="preparing-the-salesforce-instance.html#h2__242260294" class="bare">preparing-the-salesforce-instance.html#h2__242260294</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Add the <strong>Product Synchronization Criteria</strong> field to the layout of the
+<strong>Vision Setup</strong> custom metadata type.</p>
+</div>
+<div id="h2__682569336" class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Assign Permission Set for
+Administrators<a href="preparing-the-salesforce-instance.html#h2__682569336" class="bare">preparing-the-salesforce-instance.html#h2__682569336</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Assign the <em>CT Vision Administrator</em> permission set to administrators.
+The permission set contains all required permissions for the correct
+operation of the CT Vision IR.</p>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

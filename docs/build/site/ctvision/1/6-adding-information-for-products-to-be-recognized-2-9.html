@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: CT Vision</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">CT Vision</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ctvision" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">CT Vision</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-creating-vision-settings-records-2-9.html">2-creating-vision-settings-records-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-specifying-product-objects-and-fields-2-9.html">3-specifying-product-objects-and-fields-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-setting-up-integration-with-the-image-recognition-providers-2-9.html">4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">CT Vision</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">CT Vision</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>To recognize products in photos taken, train the provider&#8217;s neural
+networks by uploading marketing photos of the product to the CT Vision
+server. You also can use these photos
+in https://help.customertimes.com/articles/ct-mobile-ios-en/custom-related-lists[custom
+related lists] in the CT Mobile app or add them to catalogs and orders
+for
+the https://help.customertimes.com/articles/ct-orders-3-0/ct-orders-solution[CT
+Orders] solution.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2__1751244368">Adding
+and Viewing Product Photos in Salesforce</a></p>
+</li>
+<li>
+<p><a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2__518870114">Setting
+up Product Image Uploads</a></p>
+</li>
+<li>
+<p><a href="6-adding-information-for-products-to-be-recognized-2-9.html#h3_1021024571">Filtering
+Products to Upload Their Images</a></p>
+</li>
+<li>
+<p><a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2_285464100">Testing
+Image Recognition</a></p>
+</li>
+</ul>
+</div>
+<div id="h2__1751244368" class="paragraph">
+<p>Adding and Viewing Product Photos in Salesforce
+<a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2__1751244368" class="bare">6-adding-information-for-products-to-be-recognized-2-9.html#h2__1751244368</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub></p>
+</div>
+<div class="paragraph">
+<p>When you added all required products to your Salesforce org, upload
+marketing photos and additional information about the product to the CT
+Vision server. The Product Image object is intended to store all
+required information for recognition of photos by the selected provider
+in one place.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For more information, refer
+to <a href="product-image-field-reference-2-9.html">Product Image Field
+Reference</a>.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To upload and view marketing photos of products, add the following
+sections on the desired Product Lightning page layout:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Add <strong>Product Image Uploader</strong> for uploading a product image or
+providing a URL-address to it.</p>
+</li>
+<li>
+<p>Add <strong>Product Image Viewer</strong> for viewing marketing photos with
+additional product information specified in the Product fields and
+statuses of recognition of training provider or Einstein model.<br>
+To specify the additional product information, refer to
+<a href="3-specifying-product-objects-and-fields-2-9.html#h2__2130197288">Specifying
+Product Objects and Fields: Product Image Information</a>.</p>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>To edit the Product Lightning page layout:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to <strong>Setup → Object Manager →</strong> the desired Product
+object → <strong>Lightning Record Pages</strong>.</p>
+</li>
+<li>
+<p>Click on the desired record layout name.</p>
+</li>
+<li>
+<p>Click <strong>Edit</strong> on the record details page.<br></p>
+</li>
+<li>
+<p>In the <strong>Lightning App Builder</strong>, drag the <strong>Product Image Uploader</strong>
+and <strong>Product Image Viewer</strong> sections from the components tab on the left
+to the record page layout.<br>
+<span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/2021-08-13_12-04-47.png" alt="image"></span><br></p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.<br></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete. On the corresponding <strong>Product</strong> record, you can
+upload new photos or change them.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>+</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For example, if a product has a packaging change, the administrator
+manually replaces a photo with a new one. Next,
+<a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2__518870114">if
+customized</a>, a process sends updated records from Salesforce to the
+provider. The provider will process product images on a separate
+endpoint for training, and then a new version of the product design can
+be used to recognize the product on the shelves. <br></p>
+</div>
+<div class="paragraph">
+<p><span class="image unresolved"><img src="../Storage/ct-vision-ir-en-publication/Product%20Image%20section%20on%20Product%20page.png" alt="image"></span></p>
+</div>
+<div id="h2__518870114" class="paragraph">
+<p>Setting up Product Image Uploads
+<a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2__518870114" class="bare">6-adding-information-for-products-to-be-recognized-2-9.html#h2__518870114</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub>~~</p>
+</div>
+<div class="paragraph">
+<p>To use product images to recognize products in the taken photos, set up
+uploading them to the CT Vision server:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>On the Product Image object, create a field with the <strong>Lookup</strong> type
+to link it with the corresponding Product object.</p>
+</li>
+<li>
+<p>Go to <strong>Setup → Custom Code → Apex Triggers →</strong> check that
+the ProductImageProcess and Product2VisionProcess triggers are active.</p>
+</li>
+<li>
+<p>Go to <strong>Setup → Custom Code → Custom Settings</strong> → click <strong>Manage</strong> next
+to <strong>Trigger Settings</strong> of the CT Mobile package (<strong>Namespase Prefix</strong> is
+<strong>clm</strong>).</p>
+</li>
+<li>
+<p>Click <strong>New</strong>:</p>
+</li>
+<li>
+<p>In the <strong>Name</strong> field, specify Product2VisionProcess.</p>
+</li>
+<li>
+<p>Select <strong>Active</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete. Marketing photos will be stored on a server side
+and,
+<a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2__1751244368">if
+customized</a>, displayed for the <strong>Product</strong> record tab.</p>
+</div>
+<div id="h3_1021024571" class="paragraph">
+<p>Filtering Products to Upload Their
+Images<a href="6-adding-information-for-products-to-be-recognized-2-9.html#h3_1021024571" class="bare">6-adding-information-for-products-to-be-recognized-2-9.html#h3_1021024571</a>
+<sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup>^</p>
+</div>
+<div class="paragraph">
+<p>Specify the criteria to send product images only of the required
+products. To set the criteria:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Make sure, that the <strong>Product Synchronization Criteria</strong> field is
+added on the <strong>Vision Setup</strong> page layout for
+the <a href="vision-setup-field-reference-2-9.html">Vision Setup</a> custom
+metadata type.</p>
+</li>
+<li>
+<p>Go to <strong>Setup → Custom Code → Custom Metadata Types →</strong> click <strong>Manage
+Records</strong> next to <strong>Vision Setup</strong>.</p>
+</li>
+<li>
+<p>Click <strong>New</strong>.</p>
+</li>
+<li>
+<p>Specify the criteria.</p>
+</li>
+<li>
+<p>Enter <strong>Label.</strong></p>
+</li>
+<li>
+<p>Specify <strong>Vision Setup Name</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Product Synchronization Criteria</strong>, add the SOQL filter. As
+the criteria, use the <em>Product</em> fields.</p>
+</li>
+<li>
+<p>Click <strong>Save</strong>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>The setup is complete.</p>
+</div>
+<div id="h2_285464100" class="paragraph">
+<p>Testing Image Recognition
+<a href="6-adding-information-for-products-to-be-recognized-2-9.html#h2_285464100" class="bare">6-adding-information-for-products-to-be-recognized-2-9.html#h2_285464100</a>
+<sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub><sub>~</sub></p>
+</div>
+<div class="paragraph">
+<p>Optionally, you can test the loading and recognition of photos before
+setting up the integration with the CT Mobile app. Add the following
+sections on the desired Activity<em> </em>Lightning page layout:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>CT Vision: Photo Uploader</strong> is designed for uploading images of
+shelves with the desired products to the CT Vision server.</p>
+</li>
+<li>
+<p><strong>CT Vision: Photo Carousel</strong> is designed to recognize products in
+uploaded images.</p>
+</li>
+</ul>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

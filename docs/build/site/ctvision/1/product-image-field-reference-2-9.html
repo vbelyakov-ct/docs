@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: CT Vision</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">CT Vision</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ctvision" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">CT Vision</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-creating-vision-settings-records-2-9.html">2-creating-vision-settings-records-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-specifying-product-objects-and-fields-2-9.html">3-specifying-product-objects-and-fields-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-setting-up-integration-with-the-image-recognition-providers-2-9.html">4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">CT Vision</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">CT Vision</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>The Product Image object is intended to
+<a href="6-adding-information-for-products-to-be-recognized-2-9.html">store
+all required information</a> for recognition of photos by the selected
+provider in one place. Also, these records with product images can be
+displayed
+in https://help.customertimes.com/articles/ct-mobile-ios-en/custom-related-lists[custom
+related lists] in the CT Mobile app, or in catalogs and orders of
+the https://help.customertimes.com/smart/project-order-module/ct-orders-solution[CT
+Orders] solution, if necessary.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>Object API Name: ctv<em>ProductImage</em>c</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>The following fields must be created on the Product Image object:<br></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><strong>Field</strong></th>
+<th class="tableblock halign-left valign-top"><strong>API Name</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Type</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CT Product<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ProductId__c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lookup(CT Product)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>The parent <em>CT Product</em> record.</p>
+</div>
+<div class="paragraph">
+<p>The field must be manually created by the administrator.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Document Id</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>DocumentId</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The unique Id of the
+product image.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Document URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>DocumentUrl</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The product image name
+when it is stored
+in https://help.salesforce.com/s/articleView?id=pages_static_resources.htm&amp;language=en_US&amp;type=5[static
+resources] in your Salesforce org or its URL.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">External Id</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>ExternalId</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255) (External Id) (Unique Case
+Sensetive)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The product image external identifier.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Main Product Image</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>Main</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Active, if there is a
+product label in the picture (frontal picture of the package).</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preview URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>PreviewUrl</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The provider creates the
+preview of product images and then packed them into a ZIP archive.
+Previews are used in
+<a href="working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_2072273480">the
+clickable realogram</a> when the mobile user taps the recognized product to
+see its details.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provider</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>Provider</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Picklist</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The provider that uses the
+product image.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Product Image Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(80)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The product label.</p></td>
+</tr>
+</tbody>
+</table>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

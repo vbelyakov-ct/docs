@@ -3,8 +3,9 @@ site:
   start_page: ctvision::about-ct-vision.adoc
 content:
   sources:
-  - url: https://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@github.com/vbelyakov-ct/demo.git
+  - url: https://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@github.com/vbelyakov-ct/docs.git
     branches: main
+    start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

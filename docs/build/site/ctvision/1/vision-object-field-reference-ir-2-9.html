@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Untitled :: CT Vision</title>
+    <meta name="generator" content="Antora 3.1.10">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">CT Vision</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="ctvision" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">CT Vision</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-ct-vision.html">about-ct-vision.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="1-installing-the-ct-vision-package-2-9.html">1-installing-the-ct-vision-package-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="2-creating-vision-settings-records-2-9.html">2-creating-vision-settings-records-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="3-specifying-product-objects-and-fields-2-9.html">3-specifying-product-objects-and-fields-2-9.adoc</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="4-setting-up-integration-with-the-image-recognition-providers-2-9.html">4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">CT Vision</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">CT Vision</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="about-ct-vision.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<div class="paragraph">
+<p>The <em>Vision Object</em> record type is used to specify an object, from which
+a mobile user launches CT Vision.</p>
+</div>
+<div class="paragraph">
+<p>Create a separate <em>Vision Object</em> record for each object, which is
+supposed to take and view photos.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>Record Type API Name: VisionObject</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>The following fields must be created on the Vision Settings object for
+this record type:<br></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><strong>Field</strong></th>
+<th class="tableblock halign-left valign-top"><strong>API Name</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Type</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vision Object<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>VisionObject</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Required field.</p>
+</div>
+<div class="paragraph">
+<p>Specify the API name of the object on the layout of which you want to
+add the <strong>CT Vision</strong> button.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vision Object Record Type</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>VisionObjectRecordType</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>If there is at least one record type for the Vision object, specify its
+API name to apply the setting for the corresponding record type.</p>
+</div>
+<div class="paragraph">
+<p>Leave empty, if there are no record types for the Vision object.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vision Photo Lookup<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>VisionPhotoLookup</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Required field.<br></p>
+</div>
+<div class="paragraph">
+<p>Specify the API name of the {VisionObjectid} field on
+the <a href="vision-photo-field-reference-ir-2-9.html">Vision Photo</a> object.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Parent Object<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>ParentObject</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Mobile.</p>
+</div>
+<div class="paragraph">
+<p>Specify the API name of the object used for aggregating photos from
+related records (for example, photos from <em>Activities</em> with specified
+<em>Accounts</em>). <br></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Parent Object Lookup<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>ParentObjectLookup</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Mobile.</p>
+</div>
+<div class="paragraph">
+<p>Specify the API name of the lookup field from the Vision object to its
+parent object. For example: CTCPG<em>AccountId</em>c<br></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enable Gallery</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>IsGalleryEnabled</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Mobile.</p>
+</div>
+<div class="paragraph">
+<p>If active, a mobile user can add photos from the device gallery by long
+tapping the camera icon.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enable Simple View<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>IsSimpleViewEnabled</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Checkbox<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Mobile.</p>
+</div>
+<div class="paragraph">
+<p>If active, the information from the header of the
+<a href="working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2__41293257">Report
+Summary</a> screen (actual and planned number of photos, the number of
+errors, and the actual number of the required report summaries) and the
+final summary report will not be displayed.<br></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>Plan</em>c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Number(18,0)</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Mobile.</p>
+</div>
+<div class="paragraph">
+<p>Planned number of photos to take during the visit. If not specified,
+then the planned number of photos is got from the <strong>Plan</strong> field of
+the <a href="vision-shelf-field-reference-ir-2-9.html">Vision Shelf</a> object.</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interface Fields<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>InterfaceFields</em>с<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Long Text Area(32768)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Salesforce.<br></p>
+</div>
+<div class="paragraph">
+<p>Specify API names of the fields from the Vision object that should be
+displayed under the photos in the
+<a href="working-with-ct-vision-ir-in-salesforce-2-9.html#h2_1552458132">Picture
+Gallery</a> (maximum 3 fields). The <strong>Name</strong> field is always displayed, even
+if not specified.<br></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Filter Fields<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>FilterFields</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Long Text Area(32768)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Applies only to CT Vision Salesforce.</p>
+</div>
+<div class="paragraph">
+<p>Specify API names of the fields (in one string, comma separated) from
+the Vision object that should be displayed as filters in the separate
+section of
+the <a href="working-with-ct-vision-ir-in-salesforce-2-9.html#h2_1552458132">Picture
+Gallery</a>. The following field types cannot be used for filtering:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Text area</p>
+</li>
+<li>
+<p>Time</p>
+</li>
+<li>
+<p>Geolocation</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Provider<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ctv<em>Provider</em>c<br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Text(255)<br></p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p>Available values:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>cg_cloud</em></p>
+</li>
+<li>
+<p><em>vision</em></p>
+</li>
+<li>
+<p><em>vision_light</em></p>
+</li>
+<li>
+<p><em>vertex</em></p>
+</li>
+<li>
+<p><em>easypicky</em></p>
+</li>
+<li>
+<p><em>einstein</em></p>
+</li>
+<li>
+<p><em>planorama</em></p>
+</li>
+<li>
+<p><em>intelligence_retail</em></p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
