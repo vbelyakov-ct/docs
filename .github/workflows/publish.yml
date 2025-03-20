@@ -31,14 +31,14 @@ jobs:
         node-version: '18'
     - name: Install Antora
       run: npm i antora
+    - name: Debug Playbook Location
+      run: ls -R  
     - name: Generate Site
       run: npx antora --stacktrace antora-playbook.yml
     - name: Upload Artifacts
       uses: actions/upload-pages-artifact@v3
       with:
-         path: build/site
-    - name: Debug Playbook Location
-      run: ls -R     
+         path: build/site   
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
