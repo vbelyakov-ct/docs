@@ -31,6 +31,8 @@ jobs:
         node-version: '18'
     - name: Install Antora
       run: npm i antora
+    - name: Debug Working Directory
+      run: pwd
     - name: Debug Playbook Location
       run: ls -R  
     - name: Generate Site
