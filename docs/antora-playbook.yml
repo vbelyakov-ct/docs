@@ -8,5 +8,5 @@ content:
     start_path: docs
 ui:
   bundle:
-    url: https://github.com/vbelyakov-ct/docs/blob/main/docs/ui-bundle-ct.zip
+    url: ./ui-bundle-ct.zip
     snapshot: true
