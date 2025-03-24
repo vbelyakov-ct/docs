@@ -5,8 +5,11 @@ https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000PGQktEA
 Vision package] page on the AppExchange site and click *Get It Now*.
 2.  Log in to Salesforce.
 3.  Select the Installation type. 
+
+****
 When installing in a sandbox, provide the production environment account
 credentials.
+****
 
 image::2021-09-17_17-20-55.png[] 
 
