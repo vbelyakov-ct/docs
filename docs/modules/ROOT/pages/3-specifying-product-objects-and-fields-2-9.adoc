@@ -50,7 +50,7 @@ Use any suitable field that contains a unique product identifier, such
 as EAN or CTCPG__ExternalId__c. This field is used for mapping
 the Product object in Salesforce and the server.
 2.  Click *Save*. 
-image:General%20Configuration%20Product%20Object-2.9.png[image] 
+image:General-Configuration-Product-Object-2.9.png[image] 
 3.  Allow Salesforce to create a field with the *Lookup* type when
 prompted for the specified Product object. 
 

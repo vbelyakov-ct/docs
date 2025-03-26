@@ -50,7 +50,7 @@ To create a report summary:
 
 . Open an _Activity_ record in the CT Mobile app and tap the CT Vision
 icon. +
-image:Start%20CT%20Vision.png[] +
+image:Start-CT-Vision.png[] +
 . Select the shelf type on the left side of the screen. +
 [.confluence-information-macro-tip]#If there is a shelf with _Master_
 name, it will be the only shelf displayed. For more information, refer
@@ -194,7 +194,7 @@ specific color.
 recognized product to see the
 details. link:product-image-field-reference.html[The product
 previews] are loaded from the CT Vision server. +
-image:Recognized%20Product%20at%20Clickable%20Realogram.png[] +
+image:Recognized-Product-at-Clickable-Realogram.png[] +
 * tap
 the image:ct-orders-spring-21-2021-03-12-3.png[] icon *(2)* to
 delete a photo.
@@ -211,7 +211,7 @@ image:working-with-ct-vision-2021-03-24-2.jpg[]
 To view the Shelf Product list:
 
 . Tap
-the image:Shelf%20Product%20List%20Button.png[] button.
+the image:Shelf-Product-List-Button.png[] button.
 . Review products on the shelves on the *Shelf Product List* screen: +
 [.confluence-information-macro-tip]#To set up fields to display, refer
 to link:vision-product-list-field-reference.html[Vision Product List
@@ -221,12 +221,12 @@ and review products.
 .. Tap the *Plus* button next to the desired shelf to add the
 unrecognized product. The product will be highlighted with a red
 color. +
-image:Shelf%20Product%20List%20Add%20Product.png[] +
+image:Shelf-Product-List-Add-Product.png[] +
 .. In the *Facing* column, change the number of the desired product, if
 necessary. The updated number will be highlighted in red color.
 .. The *Shelf Share* and *Length* parameters are calculated per shelf,
 not per each product. +
-image:Shelf%20Product%20List.png[]
+image:Shelf-Product-List.png[]
 . Tap *Save*.
 
 [[h2_491461789]]
@@ -246,14 +246,14 @@ If enabled, add a photo tag to the desired photos.
 . In the pop-up, tap to select tags
 from link:specifying-product-objects-and-fields.html#h2_553985630[the
 list of available tags] to add them to a photo. +
-image:Tags%2001.png[]
+image:Tags-01.png[]
 . Click image:working-with-ct-vision-2021-03-24-1.png[] *(3)* to
 go back to taking photos.
 
 The tag is added. In the *Miniatures* gallery, the photo tag icon is
 displayed on the photo.
 
-image:Tags%2002.png[]
+image:Tags-02.png[]
 
 [[h2__1267691643]]
 == 
