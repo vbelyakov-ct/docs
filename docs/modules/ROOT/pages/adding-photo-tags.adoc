@@ -20,7 +20,7 @@ To create a new tag:
 . Go to the *Tags* tab. If this tab is not displayed, add it to the
 panel.
 . Click *New*. +
-image:images/new_tag.png[] +
+image::new_tag.png[] +
 . Select a *Vision Object* (required) and *Vision Object Record
 Type *(if needed):
 * If you selected only a vision object, the tag will be available for
@@ -66,9 +66,9 @@ in the Feedback Loop], share access to the tag:
 . Go to the *Tags* tab. If this tab is not displayed, add it to the
 panel.
 . Click on the desired tag from the list.
-. Click image:images/dropdown-icon.png[] and
+. Click image::dropdown-icon.png[] and
 select *Sharing*. +
-image:images/share_tag.png[] +
+image::share_tag.png[] +
 . *Search* for users, roles, or groups to share the tag with.
 . Select the _Read/Write_ *Tag Access Level*.
 . Click *Save*.
@@ -78,9 +78,9 @@ To view the sharing hierarchy:
 . Go to the *Tags* tab. If this tab is not displayed, add it to the
 panel.
 . Click on the desired tag from the list.
-. Click image:images/dropdown-icon.png[] and
+. Click image::dropdown-icon.png[] and
 select *Sharing hierarchy*. +
-image:images/sharing_hierarchy.png[] +
+image::sharing_hierarchy.png[] +
 . The list of users, groups, and roles, which have access to the tag
 will be displayed. Click the *View* link to see access details for each
 user. +
