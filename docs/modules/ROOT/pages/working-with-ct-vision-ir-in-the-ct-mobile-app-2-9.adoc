@@ -7,7 +7,7 @@ the CT Vision module].
 . https://help.customertimes.com/articles/ct-mobile-ios-en/logging-in[Log
 in] to the CT Mobile app.
 
- +
++
 
 In the CT Mobile app, a sales representative:
 
@@ -17,7 +17,7 @@ In the CT Mobile app, a sales representative:
 * clarifies the number of the products on the shelves,
 * adds photo tags to filter photos if needed.
 
- +
++
 
 * link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2__1221438961[Take
 a Photo of a Product Shelf]
@@ -52,7 +52,7 @@ To take a photo of the shelf:
 
 . Open an _Activity_ record in the CT Mobile app and tap the CT Vision
 icon. +
-image:images/Start%20CT%20Vision.png[] +
+image:images/Start CT Vision.png[] +
 . Select the shelf type on the left side of the screen. +
 [.confluence-information-macro-tip]#If there are
 no link:vision-shelf-field-reference-ir-2-9.html[Vision Shelf] records,
