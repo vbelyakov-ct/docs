@@ -263,7 +263,7 @@ type.
 * Tap** Accept** to save the report.
 * Tap *Try again* to go back to taking photos and managing errors.
 
-image:working-with-ct-vision-2021-03-24.jpg[scaledwidth=70%]
+image::working-with-ct-vision-2021-03-24.jpg[scaledwidth=70%]
 
 [[h2_566778463]]
 == Pictures Gallery
