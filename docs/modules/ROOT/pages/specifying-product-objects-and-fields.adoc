@@ -21,7 +21,7 @@ Description]
 * link:specifying-product-objects-and-fields.html#h3_1711109790[Custom
 Filters]
 
-image::CT%20Vision%20General%20Configuration.png[]
+image:CT%20Vision%20General%20Configuration.png[]
 
 [[h2__1981203353]]
 == Authorization link:specifying-product-objects-and-fields.html#h2__1981203353[]
@@ -32,7 +32,7 @@ section to connect to the CT Vision server.
 
 In case of any errors, contact the Customertimes team.
 
-image::fields-mapping-on-product-and-product-image-objects-2021-09-29-2.png[]
+image:fields-mapping-on-product-and-product-image-objects-2021-09-29-2.png[]
 
 [[h2_1194545519]]
 == Cloud Tokenlink:specifying-product-objects-and-fields.html#h2_1194545519[]
@@ -71,7 +71,7 @@ if needed.
 from the *Available* section to the *Selected* section to send them to
 the server.
 . Click *Save*. +
-image::General%20Configuration%20Product%20Object.png[] +
+image:General%20Configuration%20Product%20Object.png[] +
 . Allow Salesforce to create a field with the *Lookup* type when
 prompted for the specified [.object]#Product# object. +
 
@@ -83,7 +83,7 @@ it with the specified [.object]#Product# object.
 
 Check the user profile permissions to make sure the newly created lookup
 is available for all required users: +
-image::about-ct-vision-2021-12-21.png[]
+image:about-ct-vision-2021-12-21.png[]
 
 [[h2__2130197288]]
 == Product Image Setting link:specifying-product-objects-and-fields.html#h2__2130197288[]
@@ -99,7 +99,7 @@ Information for Products to be Recognized].#
 
 . On the *Product Image Setting* tab, add desired fields from the
 *Available* to *Selected* section. +
-image::General%20Configuration%20Product%20Image.png[]
+image:General%20Configuration%20Product%20Image.png[]
 . Click *Save*. +
 
 The setup is complete.
@@ -127,7 +127,7 @@ To set up fields to display:
 . In the *Activity Object* field, select the required object.
 . Add fields to display from the *Available* section to
 the *Selected* section.  +
-image::General%20Configuration%20Feedback%20Loop.png[]
+image:General%20Configuration%20Feedback%20Loop.png[]
 . Click *Save*.
 
 The setup is complete.
@@ -145,4 +145,4 @@ Specify desired criteria to filter records for the selected
 specified by the help of the SOQL builder and has up to 5 nested levels
 of related objects.
 
-image::General%20Configuration%20Feedback%20Loop%20Custom%20Filters.png[]
+image:General%20Configuration%20Feedback%20Loop%20Custom%20Filters.png[]

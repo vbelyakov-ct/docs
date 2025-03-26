@@ -29,7 +29,7 @@ the main screen, and the filters to apply on the right side of the page.
 several pages and view the number of the received photos. +
 [.confluence-information-macro-tip]#Maximum 50,000 photos can be loaded
 at a
-time.#image::ctv-photo-gallery.png[]
+time.#image:ctv-photo-gallery.png[]
 
 * Under the photo, the information specified on the *Interface Fields*
 of the link:vision-object-field-reference-ir-2-9.html[Vision Object] is

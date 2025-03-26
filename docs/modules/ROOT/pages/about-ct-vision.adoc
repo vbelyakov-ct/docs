@@ -12,6 +12,6 @@ CT Vision IR supports integration with EasyPicky and allows launching
 applications on the Activity records, process, and store results in the
 CT Mobile app local database.
 
-image::vision-rn-2-4-2021-03-04.png[]
+image:vision-rn-2-4-2021-03-04.png[]
 
 
