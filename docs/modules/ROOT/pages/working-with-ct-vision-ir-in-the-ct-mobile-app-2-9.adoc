@@ -61,10 +61,12 @@ no shelf types will be displayed.#
 . Point the tablet at the desired shelf and tap the *Photo* button.
 * The *Photo* button is active when the indicator that displays the
 position of a device relative to the horizon is green:
-** image:ct-orders-spring-21-2021-03-12.png[]: the
+
+** image:ct-orders-spring-21-2021-03-12.png[25,25]: the
 device is tilted.
-** image:ct-orders-spring-21-2021-03-12-1.png[]:
-the device is aligned with the horizon. +
+** image:ct-orders-spring-21-2021-03-12-1.png[25,25]:
+the device is aligned with the horizon. 
+
 * Hints for the selected shelf will be displayed at the bottom of the
 screen or in the pop-up. +
 [.confluence-information-macro-tip]#For more information, refer to
@@ -113,22 +115,22 @@ Summary]. +
 
 The statuses can acquire the following values: +
 
-[width="100%",cols="50%,50%",]
+[width="100%",cols="50%,50%",grid]
 |===
 |*Status* + |*Description*
 
-|*Yellow* (arrow up) + |The photo is being sent for recognition.
+|[.yellow]*Yellow* (arrow up) + |The photo is being sent for recognition.
 
-|*Yellow* (arrow down) |The recognition result is being received.
+|[.yellow]*Yellow* (arrow down) |The recognition result is being received.
 
-|*Red* |An error has occurred.
+|[.red]*Red* |An error has occurred.
 
-|*Green* |Successfully recognized.
+|[.green]*Green* |Successfully recognized.
 
-|*Purple* + |The photo is successfully recognized, but no required
+|[.purple]*Purple* + |The photo is successfully recognized, but no required
 products are detected. +
 
-|*Orange* + |Displayed after the user confirms a photo with an error. +
+|[.custom-orange]*Orange* + |Displayed after the user confirms a photo with an error. +
 |===
 
 
@@ -190,7 +192,7 @@ image:working-with-ct-vision-2021-03-24-2.jpg[]
 
 
 [[h3_1017582017]]
-=== Shelf Product List link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_1017582017[]
+=== Shelf Product List 
 
 To view the Shelf Product list:
 
@@ -261,7 +263,7 @@ type.
 * Tap** Accept** to save the report.
 * Tap *Try again* to go back to taking photos and managing errors.
 
-image:working-with-ct-vision-2021-03-24.jpg[]
+image:working-with-ct-vision-2021-03-24.jpg[70%]
 
 [[h2_566778463]]
 == Pictures Gallery
