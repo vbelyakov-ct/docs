@@ -16,7 +16,7 @@ Party Provider]
 
  +
 
-image:Provider%20Comfiguration%20v.2.png[]
+image:Provider-Comfiguration-v.2.png[]
 
 [[h2_1620541365]]
 Set up Providers 

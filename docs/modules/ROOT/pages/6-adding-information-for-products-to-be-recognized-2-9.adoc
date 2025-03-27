@@ -74,7 +74,7 @@ provider. The provider will process product images on a separate
 endpoint for training, and then a new version of the product design can
 be used to recognize the product on the shelves.  +
 
-image:Product%20Image%20section%20on%20Product%20page.png[]
+image:Product-Image-section-on-Product-page.png[]
 
 [[h2__518870114]]
 Setting up Product Image Uploads

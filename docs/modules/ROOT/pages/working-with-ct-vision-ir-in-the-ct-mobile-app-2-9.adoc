@@ -52,7 +52,7 @@ To take a photo of the shelf:
 
 Open an _Activity_ record in the CT Mobile app and tap the CT Vision
 icon. +
-image:Start%20CT%20Vision.png[] +
+image:Start-CT-Vision.png[] +
 
 Select the shelf type on the left side of the screen. +
 If there are no link:vision-shelf-field-reference-ir-2-9.html[Vision
@@ -192,7 +192,7 @@ specific color.
 * Tap the recognized product to see the
 details. link:product-image-field-reference-2-9.html[The product
 previews] are loaded from the CT Vision server. +
-image:Recognized%20Product%20at%20Clickable%20Realogram.png[] +
+image:Recognized-Product-at-Clickable-Realogram.png[] +
 * tap
 the image:ct-orders-spring-21-2021-03-12-3.png[] icon *(2)* to
 delete a photo.
@@ -215,19 +215,19 @@ link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_1017582017[]
 To view the Shelf Product list:
 
 1.  Tap
-the image:Shelf%20Product%20List%20Button.png[] button.
+the image:Shelf-Product-List-Button.png[] button.
 2.  Review products on the shelves on the *Shelf Product List* screen:
 1.  In the *Product Info* column, tap the shelf name to expand the shelf
 and review products.
 2.  Tap the *Plus* button next to the desired shelf to add the
 unrecognized product. The product will be highlighted with a red
 color. +
-image:Shelf%20Product%20List%20Add%20Product.png[] +
+image:Shelf-Product-List-Add-Product.png[] +
 3.  In the *Facing* column, change the number of the desired product, if
 necessary. The updated number will be highlighted in red color.
 4.  The *Shelf Share* and *Length* parameters are calculated per shelf,
 not per each product. +
-image:Shelf%20Product%20List.png[]
+image:Shelf-Product-List.png[]
 3.  Tap *Save*.
 
 [[h2_491461789]]
@@ -249,14 +249,14 @@ If enabled, add a photo tag to the desired photos.
 3.  In the pop-up, tap to select tags
 from link:7-specifying-photo-tags-2-9.html#h2_553985630[the list of
 available tags] to add them to a photo. +
-image:Tags%2001.png[]
+image:Tags-01.png[]
 4.  Click image:working-with-ct-vision-2021-03-24-1.png[] to
 go back to taking photos.
 
 The tag is added. In the *Miniatures* gallery, the photo tag icon is
 displayed on the photo.
 
-image:Tags%2002.png[]
+image:Tags-02.png[]
 
 [[h2__1267691643]]
 
