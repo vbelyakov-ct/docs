@@ -9,7 +9,7 @@
 **** xref:2-creating-vision-settings-records-2-9.adoc[2. Creating CT Vision Settings Records]
 **** xref:3-specifying-product-objects-and-fields-2-9.adoc[3. Specifying Product Objects and Fields]
 **** xref:4-setting-up-integration-with-the-image-recognition-providers-2-9.adoc[4. Setting Up Integration with the Image Recognition Providers]
-**** xref:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.adoc[5. Setting Up Integration with the Image Recognition Providers]
+**** xref:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.adoc[5. Configuring CT Mobile to Work with CT Vision IR]
 **** xref:6-adding-information-for-products-to-be-recognized-2-9.adoc[6. Adding Information for Products to be Recognized]
 **** xref:7-specifying-photo-tags-2-9.adoc[7. Specifying Photo Tags]
 *** xref:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.adoc[Working with CT Vision IR in the CT Mobile app]
