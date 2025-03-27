@@ -9,7 +9,7 @@ Record Type API Name: VisionHint
 
 The following fields must be created on the CTM Settings (for versions
 prior to 2.9) or Vision Settings (since version 2.9) object for this
-record type:
+record type: +
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
@@ -40,14 +40,14 @@ Not in use since version 2.9.
 Specify the short hint text.
 
 |Label a|
-clm__Label__c (versions lower than 2.9)
+clm__Label__c (versions lower than 2.9) +
 
 ctv__Label__c (since version 2.9)
 
  |Text(255) |Specify the setting name, for example, the shelf label.
 
 |Type a|
-clm__Type__c (versions lower than 2.9)
+clm__Type__c (versions lower than 2.9) +
 
 ctv__Type__c (since version 2.9)
 

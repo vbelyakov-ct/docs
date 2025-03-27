@@ -11,4 +11,4 @@ applications on the Activity records, process, and store results in the
 CT Mobile app local database.
 
 
-image:vision-rn-2-4-2021-03-04.png[]
+image:../Storage/ct-vision-ir-en-publication/vision-rn-2-4-2021-03-04.png[image]

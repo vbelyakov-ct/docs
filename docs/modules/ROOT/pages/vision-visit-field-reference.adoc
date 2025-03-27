@@ -12,7 +12,7 @@ Record Type API Name: VisionVisit
 '''''
 
 The following fields must be created on the CTM Settings object for this
-record type:
+record type: +
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
@@ -21,12 +21,11 @@ record type:
 |Enable Gallery |IsGalleryEnabled__c |Checkbox |If active, a mobile user
 can add photos from the device gallery to the shelf.
 
-|Enable Simple View |Enable_simple_view__c |Checkbox |If active,
-the information from the header of the
-link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1221438961[Report
+== 
+|Enable Simple View + |Enable_simple_view__c + |Checkbox + |If active, the information from the header of the
 Summary] screen  (actual and planned number of photos, the number of
 errors, and the actual number of the required report summaries) and the
-final summary report will not be displayed.
+final summary report will not be displayed. +
 
 |Label |clm__Label__c |Text(255) |Specify any setting name.
 
@@ -45,7 +44,7 @@ to apply the setting for the corresponding record type.
 |Plan |Plan__c |Number(18,0) |Planned number of photos to take during
 the visit.
 
-|Provider |Provider__c |Text(255) a|
+|Provider + |Provider__c + |Text(255) + a|
 Specify the name of the image recognition provider. Available values:
 
 * cg_cloud
@@ -57,11 +56,8 @@ Specify the name of the image recognition provider. Available values:
 * planorama
 * intelligence_retail
 
-|Vision Object |VisionObject__c |Text(255) a|
-Specify the API name of the object on the layout of which you want to
-add the *CT Vision* button. Also, you can filter records by this field
-on the
-link:working-with-ct-vision-in-salesforce.html#h2__1484451922[Feedback
+== 
+|Vision Object + |VisionObject__c + |Text(255) + a| Specify the API name of the object on the layout of which you want to add the *CT Vision* button. Also, you can filter records by this field on the
 Loop] page.
 
 The field must be manually created by the administrator.

@@ -13,13 +13,13 @@ Object API Name: ctv__ProductImage__c
 
 '''''
 
-The following fields must be created on the Product Image  object:
+The following fields must be created on the Product Image  object: +
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
 |*Field* |*API Name* |*Type* |*Description*
 
-|CT Product |ProductId__c |Lookup(CT Product) a|
+|CT Product + |ProductId__c + |Lookup(CT Product) + a|
 The parent *CT Product* record.
 
 The field must be manually created by the administrator.
@@ -38,10 +38,8 @@ Sensetive) |The product image external identifier.
 |Main Product Image |ctv__Main__c |Checkbox |Active, if there is a
 product label in the picture (frontal picture of the package).
 
-|Preview URL |ctv__PreviewUrl__c |Text(255) |The provider creates the
-preview of product images and then packed them into a ZIP archive.
-Previews are used in
-link:working-with-ct-vision-in-the-ct-mobile-app.html#h2_2072273480[the
+== 
+|Preview URL |ctv__PreviewUrl__c |Text(255) |The provider creates the preview of product images and then packed them into a ZIP archive. Previews are used in
 clickable realogram] when the mobile user taps the recognized product
 link:vision-info-field-reference.html[to see its details].
 
