@@ -13,7 +13,7 @@ Record Type API Name: VisionShelf
 
 The following fields must be created on the CTM Settings (for versions
 prior to 2.9) or Vision Settings (since version 2.9) object for this
-record type:+
+record type:
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
@@ -30,14 +30,14 @@ displayed on the shelf button on the left side of the CT Vision screen,
 where a user creates a photo with products that should be recognized on
 a shelf.
 
-+
+
 
 Specify an icon name if it is stored in
 https://help.salesforce.com/s/articleView?id=pages_static_resources.htm&language=en_US&type=5[static
 resources] in your Salesforce org or its URL.
 
 |Label a|
-clm__Label__c   (versions lower than 2.9)+
+clm__Label__c   (versions lower than 2.9)
 
 ctv__Label__c  (since version 2.9)
 
@@ -50,7 +50,7 @@ link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1221438961[list
 of shelves] on the left part of the report summary creation screen.
 
 |Object a|
-clm__Object__c  (versions lower than 2.9)+
+clm__Object__c  (versions lower than 2.9)
 
 ctv__Object__c  (since version 2.9)
 
@@ -65,7 +65,7 @@ the clm__Object__c field to apply the setting for the corresponding
 record type.
 
 |Plan a|
-clm__Plan__c  (versions lower than 2.9)+
+clm__Plan__c  (versions lower than 2.9)
 
 ctv__Plan__c  (since version 2.9)
 
@@ -74,7 +74,7 @@ displayed as a line on the shelf button. The left pointer is 0 and the
 right one is the planned number.
 
 |Type a|
-clm__Type__c  (versions lower than 2.9)+
+clm__Type__c  (versions lower than 2.9)
 
 ctv__Type__c  (since version 2.9)
 

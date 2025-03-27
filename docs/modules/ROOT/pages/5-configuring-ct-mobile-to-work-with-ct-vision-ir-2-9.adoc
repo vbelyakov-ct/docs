@@ -26,7 +26,7 @@ Salesforce. Photos taken on a mobile device will be attached only to the
 records with the specified Mobile Id, and the taken photos will be
 stored on a mobile device up to 7 days.
 
-+
+
 
 For more information, go to
 the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[System
@@ -77,7 +77,7 @@ the *Selected* field.
 to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
 Mobile Control Panel 2.0: App Menu].
 2.  Select the required profile in the *Profile* picklist. To apply
-settings to all the profiles, select *General Settings*.+
+settings to all the profiles, select *General Settings*.
 3.  Go
 to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
 Mobile Control Panel 2.0: Offline Objects] tab.
@@ -104,24 +104,24 @@ menu]:
 [width="100%",cols="50%,50%",]
 |=======================================================================
 a|
-In CT Mobile Control Panel+
+In CT Mobile Control Panel
 
  a|
 1.  Go to
 https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-app-menu[CT
 Mobile Control Panel: App Menu] tab.
-2.  Select the required profile in the *Location* picklist.+
+2.  Select the required profile in the *Location* picklist.
 *General Settings* will be applied to all the profiles without
-individual settings.+
+individual settings.
 3.  Click
 the image:62562571.png[]
 button to open the *Add menu item* tool.
 4.  Click *Add custom* and enter _ctvision_ in the appeared field.
 5.  Click *Add*.
-6.  Click *Save*.+
+6.  Click *Save*.
 
 a|
-In CT Mobile Control Panel 2.0+
+In CT Mobile Control Panel 2.0
 
  a|
 1.  Go

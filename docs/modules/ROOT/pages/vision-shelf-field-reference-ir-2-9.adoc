@@ -9,7 +9,7 @@ Record Type API Name: VisionShelf
 '''''
 
 The following fields must be created on the Vision Settings object for
-this record type:+
+this record type:
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
@@ -18,10 +18,10 @@ this record type:+
 |Vision Object |ctv__VisionObject__c |Text(255) |Specify the API name of
 the object to apply the setting, for example, CTCPG__Activity__c. 
 
-|Vision Object Record Type+ |ctv__VisionObjectRecordType__c+
-|Text(255)+ |If needed, specify the API name of the record type for the
+|Vision Object Record Type |ctv__VisionObjectRecordType__c
+|Text(255) |If needed, specify the API name of the record type for the
 object in the ctv__VisionObject__c field to apply the setting for the
-corresponding record type.+
+corresponding record type.
 
 |Plan |ctv__Plan__c |Number(18,0) a|
 Planned number of photos to take for the shelf that is displayed as a
@@ -40,7 +40,7 @@ Shooting mode applied for the shelf:
 captured in a single shot. The photos of the collection will be merged
 and sent as an indivisible photo for recognition.
 
-|Label+ |ctv__Label__c |Text(255)+ |Specify a shelf name that will be
+|Label |ctv__Label__c |Text(255) |Specify a shelf name that will be
 displayed in the CT Mobile app.
 
 |Icon |ctv__Icon__c |Text(255) a|
@@ -49,7 +49,7 @@ displayed on the shelf button on the left side of the CT Vision screen,
 where a user creates a photo with products that should be recognized on
 a shelf.
 
-+
+
 
 Specify an icon name if it is stored in
 https://help.salesforce.com/s/articleView?id=pages_static_resources.htm&language=en_US&type=5[static

@@ -1,7 +1,7 @@
 Specify the product fields to send their values for processing and
 storing on the server.
 
-+
+
 
 Go to the *CT Vision* app and open the *CT Vision Setup* tab.
 
@@ -21,7 +21,7 @@ Mobile Managed Package Update to v. 3.54] description. 
 * link:3-specifying-product-objects-and-fields-2-9.html#h2__1362989108[Product
 Object Setting]
 
-+
+
 
 [[h2__1981203353]]
 Authorizationlink:3-specifying-product-objects-and-fields-2-9.html#h2__1981203353[]
@@ -45,21 +45,21 @@ To specify the corresponding Product object:
 1.  On the *Product Object Setting* tab, specify the required fields:
 * In the **Product Object **picklist, select the
 desired Product__ __object.
-* In the** Product Key Code** picklist, select the desired field.+
+* In the** Product Key Code** picklist, select the desired field.
 Use any suitable field that contains a unique product identifier, such
 as EAN or CTCPG__ExternalId__c. This field is used for mapping
 the Product object in Salesforce and the server.
-2.  Click *Save*.+
-image:General-Configuration-Product-Object-2.9.png[]+
+2.  Click *Save*.
+image:General-Configuration-Product-Object-2.9.png[]
 3.  Allow Salesforce to create a field with the *Lookup* type when
-prompted for the specified Product object.+
+prompted for the specified Product object.
 
 The setup is complete. The field with the *Lookup* type will be
 automatically created on the Product Image object to relate it with the
 specified Product object.
 
-+
+
 
 Check the user profile permissions to make sure the newly created lookup
-is available for all required users:+
+is available for all required users:
 image:about-ct-vision-2021-12-21.png[]
