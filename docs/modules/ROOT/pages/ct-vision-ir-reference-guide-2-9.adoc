@@ -1,4 +1,3 @@
-= CT Vision IR Reference Guide 
 The CT Vision package includes several components:
 
 * link:vision-settings-field-reference-ir-2-9.html[Vision Settings Field

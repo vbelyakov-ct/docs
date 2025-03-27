@@ -1,10 +1,9 @@
-= 5. Setting up Integration with the Image Recognition Providers
 For the correct CT Vision IR work, valid Image Recognition Service
 Provider credentials and necessary information must be specified in your
 Salesforce org. There can be multiple providers, and they can be
 assigned to the specific group of _Users_, _Accounts_, or any object
 that has a *Lookup* type field to associate with a
-specific [.object]#Activity# object.
+specific Activity object.
 
  +
 
@@ -17,10 +16,11 @@ Party Provider]
 
  +
 
-image:Provider-Comfiguration-v.2.png[]
+image:Provider%20Comfiguration%20v.2.png[]
 
 [[h2_1620541365]]
-== Set up Providers 
+Set up Providers 
+~~~~~~~~~~~~~~~~~
 
 Set up a provider and click the *Add Provider* button to add another on.
 Refer to the articles:
@@ -31,8 +31,8 @@ provider]
 Provider]
 
 For each link:vision-visit-field-reference.html[Vision Visit] record
-type, the [.apiobject]#Provider__c# field must be filled with the
-corresponding value for the image recognition provider.
+type, the Provider__c field must be filled with the corresponding value
+for the image recognition provider.
 
 The list of available providers in the *Recognition Engine* picklist:
 

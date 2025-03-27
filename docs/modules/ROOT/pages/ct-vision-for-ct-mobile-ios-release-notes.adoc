@@ -1,4 +1,3 @@
-= CT Vision for CT Mobile iOS Release Notes
 Here you find a feature, the link to the corresponding article, and the
 version of CT Mobile since which the feature is available.
 
@@ -12,7 +11,9 @@ Vision for CT Mobile 2.5]
 Vision for CT Mobile 2.4]
 
 [[h2_1172874714]]
-== CT Vision for CT Mobile 2.9link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874714[]
+CT Vision for CT Mobile
+2.9link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874714[]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * CT Vision Lite, the new comprehensive solution to process photos while
 working in the CT Mobile app for iOS users. CT Vision Lite includes the
@@ -36,10 +37,14 @@ and https://help.customertimes.com/articles/ct-vision-lite-en/working-with-ct-v
 pictures in full size] will be disabled.  
 
 [[h2_1172874713]]
-== CT Vision for CT Mobile 2.6link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874713[]
+CT Vision for CT Mobile
+2.6link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874713[]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[h3_110293510]]
-=== Image Recognition Toolslink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_110293510[]
+Image Recognition
+Toolslink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_110293510[]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use
 the link:working-with-ct-vision-in-the-ct-mobile-app.html#h3_1017582017[Shelf
@@ -55,7 +60,9 @@ record screen if at least one photo is made with CT Vision during the
 visit.
 
 [[h3_1379605186]]
-=== CG Cloud Supportlink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_1379605186[]
+CG Cloud
+Supportlink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_1379605186[]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Connect to the CG Cloud image recognition provider.
 * Perform a
@@ -64,10 +71,14 @@ Check] task within a visit to retail stores.
 * Calculate KPI for the shelves. 
 
 [[h2_1172874716]]
-== CT Vision for CT Mobile 2.5link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874716[]
+CT Vision for CT Mobile
+2.5link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874716[]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[h3__489916585]]
-=== Image Recognition Toolslink:ct-vision-for-ct-mobile-ios-release-notes.html#h3__489916585[]
+Image Recognition
+Toolslink:ct-vision-for-ct-mobile-ios-release-notes.html#h3__489916585[]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * link:specifying-product-objects-and-fields.html#h2_553985630[If
 customized], add one or more tags to the taken photo.
@@ -87,10 +98,14 @@ to take photos of large shelves.
 models] are supported in the *Collection* mode.
 
 [[h2_891547920]]
-== CT Vision for CT Mobile 2.4 link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_891547920[]
+CT Vision for CT Mobile 2.4
+link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_891547920[]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[h3_2077060874]]
-=== Activation link:ct-vision-for-ct-mobile-ios-release-notes.html#h3_2077060874[]
+Activation
+link:ct-vision-for-ct-mobile-ios-release-notes.html#h3_2077060874[]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * link:configuring-ct-mobile-for-work-with-ct-vision.html[Add CT Vision
 to the menu] to take photos and recognize products in the CT Mobile app.
@@ -99,13 +114,17 @@ the CT Vision button] on the _Activity_ record to open the CT Vision
 module.
 
 [[h3_397932385]]
-=== CT Vision Modulelink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_397932385[]
+CT Vision
+Modulelink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_397932385[]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 During the sync process, photos of the _Activity_ records of the last 7
 days will be downloaded on the mobile device.
 
 [[h3_436277134]]
-=== Image Recognition Toolslink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_436277134[]
+Image Recognition
+Toolslink:ct-vision-for-ct-mobile-ios-release-notes.html#h3_436277134[]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * The *Standard Photo* and *Panorama* modes for taking photos of the
 products on the shelves.

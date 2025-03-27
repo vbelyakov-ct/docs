@@ -1,4 +1,3 @@
-= Vision Hint Field Reference
 The _Vision Hint_ record type is responsible for displaying hints when a
 user selects the shelf type and takes a photo on the CT Vision screen.
 
@@ -8,12 +7,12 @@ Record Type API Name: VisionHint
 
 '''''
 
-The following fields must be created on the [.object]#[.object]#CTM
-Settings## (for versions prior to 2.9) [.object]#or [.object]#Vision
-Settings## (since version 2.9) object for this record type: +
+The following fields must be created on the CTM Settings (for versions
+prior to 2.9) or Vision Settings (since version 2.9) object for this
+record type: +
 
 [width="100%",cols="25%,25%,25%,25%",]
-|===
+|=======================================================================
 |*Field* |*API Name* |*Type* |*Description*
 
 |Component a|
@@ -21,7 +20,7 @@ clm__Component__c (versions lower than 2.9)
 
 ctv__Component__c (since version 2.9)
 
-|Text(255) a|
+ |Text(255) a|
 Specify one of the values below to display a hint in the specific place
 on the CT Vision screen:
 
@@ -35,26 +34,24 @@ gallery.
 * *PopUp* is to display a hint next to the *Start* button when a mobile
 user takes a photo of the shelf.
 
-|Default View |[.apiobject]#clm__View__c# |Text(255) a|
+|Default View |clm__View__c |Text(255) a|
 Not in use since version 2.9.
 
 Specify the short hint text.
 
 |Label a|
-[.apiobject]#clm__Label__c (versions lower than 2.9) +
-#
+clm__Label__c (versions lower than 2.9) +
 
-[.apiobject]#ctv__Label__c (since version 2.9)#
+ctv__Label__c (since version 2.9)
 
-|Text(255) |Specify the setting name, for example, the shelf label.
+ |Text(255) |Specify the setting name, for example, the shelf label.
 
 |Type a|
-[.apiobject]#clm__Type__c (versions lower than 2.9) +
-#
+clm__Type__c (versions lower than 2.9) +
 
-[.apiobject]#ctv__Type__c (since version 2.9)#
+ctv__Type__c (since version 2.9)
 
-|Text(255) a|
+ |Text(255) a|
 Specify the shelf type to display the hint when a mobile user selects
 the corresponding shelf type.
 
@@ -65,4 +62,4 @@ Values must be manually created by the administrator.
 captured in a single shot. The photos of the collection will be merged
 and sent as an indivisible photo for recognition.
 
-|===
+|=======================================================================
