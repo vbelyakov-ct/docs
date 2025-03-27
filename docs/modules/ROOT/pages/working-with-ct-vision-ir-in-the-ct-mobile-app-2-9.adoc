@@ -40,14 +40,17 @@ Gallery]
 == Take a Photo of a Product Shelf
 
 
-[.confluence-information-macro-note]#If
+[NOTE]
+====
+If
 the link:vision-object-field-reference-ir-2-9.html[Enable Simple
 View] option is enabled, the header with the report data (the actual and
 planned number of photos, the number of errors, and the actual number of
 the required report summaries) and the final summary report will not be
 displayed. Also,
 link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_566778463[previewing
-pictures in full size] will be disabled.#
+pictures in full size] will be disabled.
+====
 
 To take a photo of the shelf:
 
@@ -55,9 +58,13 @@ To take a photo of the shelf:
 icon. +
 image:Start-CT-Vision.png[] +
 . Select the shelf type on the left side of the screen. +
-[.confluence-information-macro-tip]#If there are
+[TIP]
+====
+If there are
 no link:vision-shelf-field-reference-ir-2-9.html[Vision Shelf] records,
-no shelf types will be displayed.#
+no shelf types will be displayed.
+====
+
 . Point the tablet at the desired shelf and tap the *Photo* button.
 * The *Photo* button is active when the indicator that displays the
 position of a device relative to the horizon is green:
@@ -69,9 +76,13 @@ the device is aligned with the horizon.
 
 * Hints for the selected shelf will be displayed at the bottom of the
 screen or in the pop-up. +
-[.confluence-information-macro-tip]#For more information, refer to
+[TIP]
+====
+For more information, refer to
 link:vision-hint-field-reference-ir-2-9.html[Vision Hint Field
-Reference].#
+Reference].
+====
+
 . Take a photo of the shelf.
 . {blank}
 * Use the *Photo* type to create a photo of the shelf.
@@ -147,9 +158,12 @@ action:
 photo.
 * Tap *Delete* to remove the taken photo. If the first photo has been
 deleted, the camera opens. Otherwise, the previous photo opens. +
-[.confluence-information-macro-tip]#The photo will be deleted if the
+[TIP]
+====
+The photo will be deleted if the
 device has access to the Internet, as the photo is physically on the
-server.#
+server.
+====
 
 image:working-with-ct-vision-2021-03-24-2.png[]
 
@@ -215,12 +229,15 @@ image:Shelf-Product-List.png[]
 [[h2_491461789]]
 === Photo Tags 
 
+[NOTE]
+====
 To enable photo tags for the CT Mobile application, add the *Tag*
 offline object in the
 https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects[CT
 Mobile Control
 Panel] / https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
 Mobile Control Panel 2.0].
+====
 
 If enabled, add a photo tag to the desired photos.
 
@@ -247,14 +264,18 @@ image:Tags-02.png[]
 * Review the report:
 ** In the *Pictures Total*, compare the planned and taken number of
 photos. +
-[.confluence-information-macro-tip]#If there are no shelves or the
+[TIP]
+====
+If there are no shelves or the
 planned number is not set, the planned number of photos is taken from
 the *Plan* field of the
 link:vision-object-field-reference-ir-2-9.html[Vision Object] record.
 Otherwise, the planned number is the sum of the values from
 the *Plan* field
 of the link:vision-shelf-field-reference-ir-2-9.html[Vision
-Shelf] records.#
+Shelf] records.
+====
+
 ** In the *Pictures Absence*, verify shelves, for which there is no
 photo or the actual number of photos is less than the number specified
 in the *Plan* field of the _CTM Settings_ record with
@@ -268,7 +289,10 @@ image::working-with-ct-vision-2021-03-24.jpg[scaledwidth=70%]
 [[h2_566778463]]
 == Pictures Gallery
 
+[NOTE]
+====
 Realogram view is not available while seeing photos in Picture Gallery.
+====
 
 link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2__521416285[Add
 the Pictures gallery] to the object (e.g., _Account_) mobile layout to
@@ -283,11 +307,14 @@ View] option is turned on. +
 * While viewing photos in a full size, tap
 the image:fullsize-photo-tag-icon.png[]
 icon to see the photo tags. +
-[.confluence-information-macro-note]#Photo tags are displayed according
+[NOTE]
+====
+Photo tags are displayed according
 to their object and/or its record type. For example, if a photo was
 created on the [.object]#Account# object, you will see only photo tags
 that are also created for the Account object. Or, if a photo was created
 on the _Customer_ record type of the Account object, you will see only
 photo tags that are also created for the _Customer_ record type. 
+====
 
 image:ctvision-ios-accounts-pictures-filter.png[]
