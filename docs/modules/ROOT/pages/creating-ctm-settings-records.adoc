@@ -1,11 +1,11 @@
 After all the necessary record types are created, you can start
 configuring CT Vision settings for the CT Mobile app.
 
- +
++
 
 To create a new *Vision Settings* record:
 
-1.  Go to the *Vision Settings* tab → click *New*. +
+1.  Go to the *Vision Settings* tab → click *New*.+
 If the tab is missing,
 https://help.salesforce.com/s/articleView?id=sf.creating_custom_object_tabs.htm&type=5[create
 a custom tab] for the Vision Settings object.
@@ -20,7 +20,7 @@ click *Next*.
 * link:vision-info-field-reference.html[Vision Info]
 * link:vision-product-list-field-reference.html[Vision Product List]
 * link:vision-account-object-field-reference.html[Vision Account
-Object] +
+Object]+
 This setting should be configured in case you are not using the standard
 Account object in your data model.
 3.  Specify parameters and click *Save*.

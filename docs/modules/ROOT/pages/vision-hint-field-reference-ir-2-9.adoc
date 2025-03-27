@@ -8,13 +8,13 @@ Record Type API Name: VisionHint
 '''''
 
 The following fields must be created on the Vision Settings object for
-this record type: +
+this record type:+
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
 |*Field* |*API Name* |*Type* |*Description*
 
-|Component |ctv__Component__c |Picklist + a|
+|Component |ctv__Component__c |Picklist+ a|
 Specify one of the values below to display a hint in the specific place
 on the CT Vision screen:
 

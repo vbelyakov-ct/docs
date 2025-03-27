@@ -71,13 +71,13 @@ link:ct-vision-package-release-notes.html#h3__1717775038[]
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use link:administrator-guide.html[the preconfigured permission
-set] for administrators to provide access to work with CT Vision. +
+set] for administrators to provide access to work with CT Vision.+
 * UI improvements for the *CT Vision Setup* tab.
 * Set up additional CT Vision functionality by creating *CTM
 Settings* records of the following record type: 
 ** https://help.customertimes.com/smart/project-ct-vision-en/vision-tag-field-refernce[Vision
 Tag]
-** link:vision-visit-field-reference.html[Vision Visit] +
+** link:vision-visit-field-reference.html[Vision Visit]+
 * Improvements for provider support.
 ** The *Vision Light* provider is supported. Use it when there is no
 need for image recognition functionality.
@@ -100,7 +100,7 @@ no link:configuring-ct-mobile-for-work-with-ct-vision.html#h2_395000743[Mobile
 ID is specified]. 
 ** The CG Cloud provider is added to the list of available providers.​
 
- +
++
 
 [[h3_1573181099]]
 Image Recognition Tools

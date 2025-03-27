@@ -20,14 +20,14 @@ To create a new tag:
 
 1.  Go to the *Tags* tab. If this tab is not displayed, add it to the
 panel.
-2.  Click *New*. +
-image:new_tag.png[] +
+2.  Click *New*.+
+image:new_tag.png[]+
 3.  Select a *Vision Object* (required) and *Vision Object Record
 Type *(if needed):
 * If you selected only a vision object, the tag will be available for
 all records on this object.
 * If you selected vision object and its record type, the tag will be
-available for all records matching this record type.  +
+available for all records matching this record type. +
 Photo tags can be added only to photos that are created for the same
 object and/or its record type. For example, if the photo was created for
 the Account object, you can add only photo tags that are also created
@@ -71,8 +71,8 @@ in the Feedback Loop], share access to the tag:
 panel.
 2.  Click on the desired tag from the list.
 3.  Click image:dropdown-icon.png[] and
-select *Sharing*. +
-image:share_tag.png[] +
+select *Sharing*.+
+image:share_tag.png[]+
 4.  *Search* for users, roles, or groups to share the tag with.
 5.  Select the _Read/Write_ *Tag Access Level*.
 6.  Click *Save*.
@@ -83,10 +83,10 @@ To view the sharing hierarchy:
 panel.
 2.  Click on the desired tag from the list.
 3.  Click image:dropdown-icon.png[] and
-select *Sharing hierarchy*. +
-image:sharing_hierarchy.png[] +
+select *Sharing hierarchy*.+
+image:sharing_hierarchy.png[]+
 4.  The list of users, groups, and roles, which have access to the tag
 will be displayed. Click the *View* link to see access details for each
-user. +
+user.+
 Users with the _System Administrator_ profile has the full access by
 default.

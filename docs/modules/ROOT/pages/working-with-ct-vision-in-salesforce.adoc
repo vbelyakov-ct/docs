@@ -26,10 +26,10 @@ the main screen, and the filters to apply on the right side of the page.
 
 * One page displays 20 photos. Use page navigation buttons in case of
 several pages and view the number of the received photos next to *Total
-Records*. +
+Records*.+
 Maximum 500 photos can be loaded at a time. More photos (another 500)
 will be loaded after clicking on the last page in the navigation
-panel.image:Feedback-Loop-Tab-v.3.png[] +
+panel.image:Feedback-Loop-Tab-v.3.png[]+
 * Under the photo, the information specified for the Vision object in
 the link:specifying-product-objects-and-fields.html#h3_1366151624[Photo
 Description] tab is displayed.
@@ -58,7 +58,7 @@ click image:gallery-right-arrow.png[] and image:gallery-left-arrow.png[] but
 to list other photos of the gallery.
 * Click
 the image:tag-selection-icon.png[]
-button and select the desired link:adding-photo-tags.html[photo tag]. +
+button and select the desired link:adding-photo-tags.html[photo tag].+
 image:tags-list.png[]
 
 [[h2__1484451922]]
@@ -72,7 +72,7 @@ a|
 Use filters on the right side of the *Feedback Loop* page to search the
 taken photos based on criteria.
 
- +
++
 
 To apply a filter, specify the required criteria and click the *Apply*
 button.
@@ -93,7 +93,7 @@ link:working-with-ct-vision-in-salesforce.html#h3_717556108[]
 * To search photos by a Vision object, select it in the **Select Vision
 Object** field.
 * To search photos by records of the Vision object, select them in
-the *Record Name* field. +
+the *Record Name* field.+
 Vision objects and their records must be defined in the _CTM
 Settings_ record with the link:vision-visit-field-reference.html[Vision
 Visit] record type. 
@@ -129,8 +129,8 @@ the link:vision-account-object-field-reference.html[Vision
 Account] record type to add desired accounts to the picklist.
 ** Search an organization by a specific *Account Field Value* in the
 selected *Account Field*. 
-* Specify the *Product* criteria: +
-** Enter the unique ID of the product in the *Product Key Code* field. +
+* Specify the *Product* criteria:+
+** Enter the unique ID of the product in the *Product Key Code* field.+
 For more information, refer to
 link:specifying-product-objects-and-fields.html#h2__1362989108[Product
 Object Settings].
@@ -139,12 +139,12 @@ Object Settings].
 ** Search a product by a specific *Product Field Value* in the selected
 *Product Field*.
 
- +
++
 
 Click *Apply* to save filters.
 
 
-|image:Feedback-Loop-Filter-v.3.png[] +
+|image:Feedback-Loop-Filter-v.3.png[]+
 |=======================================================================
 
 [[h2_1822655793]]
@@ -163,11 +163,11 @@ description. To customize the description, refer
 to link:vision-product-list-field-reference.html[]https://help.customertimes.com/articles/project-ct-vision-en/specifying-product-objects-and-fields-1/a/h3_1366151624[Feedback
 Loop tab] in the **CT Vision Setup**.
 
- +
++
 
 The following buttons are available under a photo.
 
- +
++
 
 *Buttons*
 
@@ -179,7 +179,7 @@ Open a photo for
 verifying link:working-with-ct-vision-in-salesforce.html#h3_1235535035[its
 realogram and recognized products].
 
-image:Salesforce-Shelf-Product-List-Button-v.2.png[] +
+image:Salesforce-Shelf-Product-List-Button-v.2.png[]+
 
 Open link:working-with-ct-vision-in-salesforce.html#h3_1017582017[the
 Shelf Product List] of the recognized products and their number on the
@@ -198,12 +198,12 @@ image:checkbox-unselected.png[]
 Select a photo to delete it, to include it in a ZIP archive or send it
 to the Chatter users.
 
-image:checkbox-selected.png[] +
+image:checkbox-selected.png[]+
 
 image:tag-selection-icon.png[]
 
 Add a link:adding-photo-tags.html#h3__759435562[photo tag] by clicking
-in the upper right corner of the taken photo. +
+in the upper right corner of the taken photo.+
 You can add only photo tags that are created for the same object and/or
 its record type. For example, if the photo was created for the Account
 object, you can add only photo tags that are also created for the
@@ -213,9 +213,9 @@ created for the _Customer_ record type.
 
 image:Photos-on-the-Feedback-Loop-page-v.3.png[]
 
- +
++
 
- +
++
 
 [[h3_1235535035]]
 Verify Recognized Products on Realogram
@@ -231,7 +231,7 @@ Click the 
 image:Salesforce-Realogram-button-v.2.png[] button
 to open a *Preview* window.
 
- +
++
 
 Use the navigation arrows to scroll photos of the current *Activity*
 record.
@@ -243,15 +243,15 @@ located on the *Fact* tab.
 
 image:The-Preview-window-with-the-Realogram.png[]
 
- +
++
 
 The following tools are available:
 
- +
++
 
 [width="100%",cols="34%,33%,33%",]
 |=======================================================================
-|*Tool* |*Example* + |*Description*
+|*Tool* |*Example*+ |*Description*
 
 |Filters a|
 image:FBL-Realogram-Filters.png[]
@@ -266,7 +266,7 @@ button and select details to display.
 * *Prices*
 * *Shelves*
 
- +
++
 
 Select the *Show Probability* button to display the percentage of
 probability that the product was recognized correctly.
@@ -275,33 +275,33 @@ probability that the product was recognized correctly.
 * Only the product with the same or higher probability will be framed on
 a realogram.
 
-|Information + a|
+|Information+ a|
 image:FBL-Realogram-Information.png[]
 
  |Click
 the image:information_vision.png[]
-button to review the total number of recognized products and prices. +
+button to review the total number of recognized products and prices.+
 
-|Delete a photo + a|
+|Delete a photo+ a|
 —
 
  |Click
 the image:Delete-Realogram-Photo.png[]
-button to remove a photo from the CT Vision server.  +
+button to remove a photo from the CT Vision server. +
 
-|Share +
+|Share+
 |image:FBL-Realogram-Product-Share-v.2.png[]
 a|
-Verify the shelf share. +
+Verify the shelf share.+
 
 * Specify the color that highlights a shelf on a realogram in Salesforce
-and the CT Mobile app. +
-image:Shelf-Color.png[] +
+and the CT Mobile app.+
+image:Shelf-Color.png[]+
 * Expand the shelf to review products. Only the selected shelf will be
 highlighted on the realogram.
 
 |Product List a|
 image:FBL-Realogram-Product-List.png[]
 
- |Review the list of recognized products and their number on shelves. +
+ |Review the list of recognized products and their number on shelves.+
 |=======================================================================

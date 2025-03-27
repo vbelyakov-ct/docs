@@ -143,4 +143,4 @@ on the status].
 a Report Summary] for the _Activity_ record to review the actual and
 planned number of photos and shelf KPIs.
 
- +
++

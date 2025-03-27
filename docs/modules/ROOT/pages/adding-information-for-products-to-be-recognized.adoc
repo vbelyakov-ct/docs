@@ -27,13 +27,13 @@ Vision server. The Product Image object is intended to store all
 required information for recognition of photos by the selected provider
 in one place. 
 
- +
++
 
 For more information, refer
 to link:product-image-field-reference.html[Product Image Field
 Reference].
 
- +
++
 
 To upload and view marketing photos of products, add the following
 sections on the desired Product Lightning page layout:
@@ -42,29 +42,29 @@ sections on the desired Product Lightning page layout:
 providing a URL-address to it.
 * Add *Product Image Viewer* for viewing marketing photos with
 additional product information specified in the Product fields and
-statuses of recognition of training provider or Einstein model. +
+statuses of recognition of training provider or Einstein model.+
 To specify the additional product information, refer to
 link:specifying-product-objects-and-fields.html#h2__2130197288[Specifying
 Product Objects and Fields: Product Image Information].
 
- +
++
 
 To edit the Product Lightning page layout:
 
 1.  Go to *Setup → Object Manager →* the desired Product
 object → *Lightning Record Pages*.
 2.  Click on the desired record layout name.
-3.  Click *Edit* on the record details page. +
+3.  Click *Edit* on the record details page.+
 4.  In the *Lightning App Builder*, drag the *Product Image Uploader*
 and *Product Image Viewer* sections from the components tab on the left
-to the record page layout. +
-image:2021-08-13_12-04-47.png[] +
-5.  Click *Save*. +
+to the record page layout.+
+image:2021-08-13_12-04-47.png[]+
+5.  Click *Save*.+
 
 The setup is complete. On the corresponding *Product* record, you can
 upload new photos or change them.
 
- +
++
 
 For example, if a product has a packaging change, the administrator
 manually replaces a photo with a new one. Next,
@@ -72,7 +72,7 @@ link:adding-information-for-products-to-be-recognized.html#h2__518870114[if
 customized], a process sends updated records from Salesforce to the
 provider. The provider will process product images on a separate
 endpoint for training, and then a new version of the product design can
-be used to recognize the product on the shelves.  +
+be used to recognize the product on the shelves. +
 
 image:Product-Image-section-on-Product-page.png[]
 
