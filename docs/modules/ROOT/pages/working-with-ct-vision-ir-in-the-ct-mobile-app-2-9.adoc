@@ -57,14 +57,15 @@ To take a photo of the shelf:
 . Open an _Activity_ record in the CT Mobile app and tap the CT Vision
 icon. +
 image:Start-CT-Vision.png[] +
-. Select the shelf type on the left side of the screen. +
+. Select the shelf type on the left side of the screen.
++
 [TIP]
 ====
 If there are
 no link:vision-shelf-field-reference-ir-2-9.html[Vision Shelf] records,
 no shelf types will be displayed.
 ====
-
++
 . Point the tablet at the desired shelf and tap the *Photo* button.
 * The *Photo* button is active when the indicator that displays the
 position of a device relative to the horizon is green:
@@ -75,16 +76,17 @@ device is tilted.
 the device is aligned with the horizon. 
 
 * Hints for the selected shelf will be displayed at the bottom of the
-screen or in the pop-up. +
+screen or in the pop-up.
++
 [TIP]
 ====
 For more information, refer to
 link:vision-hint-field-reference-ir-2-9.html[Vision Hint Field
 Reference].
 ====
-
++
 . Take a photo of the shelf.
-. {blank}
+
 * Use the *Photo* type to create a photo of the shelf.
 * Retake the photo when the warning indicates that the image quality is
 not satisfactory. 
@@ -94,7 +96,7 @@ actual number of the required report summaries are displayed on the
 header of the screen. +
 When an indicator *(3)* is green, tap the *Photo* button *(2)* for the
 selected shelf *(1)*.
-* {blank}
+
 ** The taken photo will be displayed in the *Miniatures* gallery at the
 bottom of the screen.
 ** The photo is sent for recognition and the appropriate status
