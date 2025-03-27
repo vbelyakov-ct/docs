@@ -17,7 +17,7 @@ In the CT Mobile app, a sales representative:
 * clarifies the number of the products on the shelves,
 * adds photo tags to filter photos if needed.
 
-+
+Contents:
 
 * link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2__1221438961[Take
 a Photo of a Product Shelf]
