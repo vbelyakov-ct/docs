@@ -1,14 +1,19 @@
-== [[h2_804337916]] Creating Photo Tags
+[[h2_804337916]]
+Creating Photo Tags link:adding-photo-tags.html#h2_804337916[]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Photo tag is an additional parameter for the taken photos
 in https://help.customertimes.com/articles/ct-vision-en/working-with-ct-vision-in-salesforce/a/h3_491461789[Salesforce] and https://help.customertimes.com/articles/ct-vision-en/working-with-ct-vision-in-the-ct-mobile-app/a/h2_491461789[the
 CT Mobile app]. Each tag has its label and color.
 
-== == == == * * * *
+* link:adding-photo-tags.html#h2_804337916[Creating Photo Tags]
+* link:adding-photo-tags.html#h2_1953806123[Create a New Tag]
+* link:adding-photo-tags.html#h2__1869476137[Editing a Tag]
+* link:adding-photo-tags.html#h2__117227442[Managing Access to Photo
 Tags]
 
-== [[h2_1953806123]] Create a New Tag
+[[h2_1953806123]]
+Create a New Tag link:adding-photo-tags.html#h2_1953806123[]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To create a new tag:
@@ -58,7 +63,7 @@ image:../Storage/ct-vision-ir-en-publication/project-ct-vision-lite-en/adding-ph
 To allow a user working with the specific photo tag
 in link:working-with-ct-vision-in-salesforce.html[Salesforce], link:working-with-ct-vision-in-the-ct-mobile-app.html[CT
 Mobile], and
-=== while
+while link:working-with-ct-vision-in-salesforce.html#h3_717556108[searching
 in the Feedback Loop], share access to the tag:
 
 1.  Go to the *Tags* tab. If this tab is not displayed, add it to the

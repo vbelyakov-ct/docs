@@ -30,7 +30,8 @@ to *Change* or *Delete* the *Provider* if necessary.
 
 The third-party provider is added.
 
-== * In the *Provider List* field, only the active providers are listed. * Specify
+* In the *Provider List* field, only the active providers are listed.
+* Specify link:setting-up-integration-with-the-image-recognition-providers.html#h2_1620541365[product
 fields].
 
 image:../Storage/ct-vision-ir-en-publication/Third-Party%20Provider%20Connection.png[image]

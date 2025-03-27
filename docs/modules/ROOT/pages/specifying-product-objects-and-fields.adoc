@@ -6,11 +6,18 @@ send their values for processing and storing on the server.
 
 Go to the *CT Vision* app and open the *CT Vision Setup* tab.
 
-== == == == == * * Token] * Object Setting] * Image Setting] *
+* link:specifying-product-objects-and-fields.html#h2__1981203353[Authorization]
+* link:specifying-product-objects-and-fields.html#h2_1194545519[Cloud
+Token]
+* link:specifying-product-objects-and-fields.html#h2__1362989108[Product
+Object Setting]
+* link:specifying-product-objects-and-fields.html#h2__2130197288[Product
+Image Setting]
+* link:specifying-product-objects-and-fields.html#h2_166351641[Feedback
 Loop]
-=== *
+* link:specifying-product-objects-and-fields.html#h3_1366151624[Photo
 Description]
-=== *
+* link:specifying-product-objects-and-fields.html#h3_1711109790[Custom
 Filters]
 
 image:../Storage/ct-vision-ir-en-publication/CT%20Vision%20General%20Configuration.png[image]

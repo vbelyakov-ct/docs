@@ -1,8 +1,10 @@
 Available since CT Mobile 2.6.
 
-== The _Vision Product List_ record type is responsible for displaying additional fields
+The _Vision Product List_ record type is responsible for displaying
+additional
+fields link:setting-up-integration-with-the-image-recognition-providers.html#h2__445124742[for
 the selected provider] in the *Shelf Product List* in
-=== your
+your link:working-with-ct-vision-in-the-ct-mobile-app.html#h3_1017582017[CT
 Mobile app] and in
 === 
 corrections window] in Salesforce.

@@ -1,11 +1,14 @@
 Photo tag is an additional parameter for the taken photos
-=== in
+in link:working-with-ct-vision-ir-in-salesforce-2-9.html#h3_1235535035[Salesforce] and link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html[the
 CT Mobile app]. Each tag has its label and color.
 
-== == == * * *
+* link:7-specifying-photo-tags-2-9.html#h2_1953806123[Create a New Tag]
+* link:7-specifying-photo-tags-2-9.html#h2__1869476137[Editing a Tag]
+* link:7-specifying-photo-tags-2-9.html#h2__117227442[Managing Access to
 Photo Tags]
 
-== [[h2_1953806123]] Create a New Tag
+[[h2_1953806123]]
+Create a New Tag link:7-specifying-photo-tags-2-9.html#h2_1953806123[]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To create a new tag:
@@ -30,7 +33,8 @@ tags that are also created for the _Customer_ record type.
 5.  If needed, pick a *Tag Color* and click *Done*.
 6.  Click *Save*. 
 
-== [[h2__1869476137]] Editing a Tag
+[[h2__1869476137]]
+Editing a Tag link:7-specifying-photo-tags-2-9.html#h2__1869476137[]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To edit a tag:
@@ -51,7 +55,10 @@ image:../Storage/ct-vision-ir-en-publication/adding-photo-tags-2-9/ctv-editing-t
 [[h2__117227442]] Managing Access to Photo Tags
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== To allow a user working with the specific photo tag in link:working-with-ct-vision-ir-in-salesforce-2-9.html[Salesforce], link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html[CT Mobile], and while
+To allow a user working with the specific photo tag
+in link:working-with-ct-vision-ir-in-salesforce-2-9.html[Salesforce], link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html[CT
+Mobile], and
+while link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2__1484451922[searching
 in the Photo Gallery], share access to the tag:
 
 1.  Go to the *Tags* tab. If this tab is not displayed, add it to the

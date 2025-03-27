@@ -1,7 +1,7 @@
 Click
 the image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20Button%20v.2.png[image]
 button to
-=== open
+open link:working-with-ct-vision-in-salesforce.html#h3_1017582017[the
 Shelf Product List] with recognized products to verify the product
 quantity on the shelves. +
 To set up fields to display, refer
@@ -23,7 +23,7 @@ status of recognition].
 image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20v.2.png[image]
 
 [[h3_491461789]]
-=== Photo Tags
+Photo Tags link:corrections-in-shelf-product-list.html#h3_491461789[]
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 [width="100%",cols="50%,50%",]

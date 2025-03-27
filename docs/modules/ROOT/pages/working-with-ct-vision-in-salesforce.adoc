@@ -3,9 +3,17 @@ link:working-with-ct-vision-in-the-ct-mobile-app.html[the taken photos
 by the mobile user] in Salesforce. Go to the CT Vision app and open the
 *Feedback Loop* tab.
 
-== == == * Loop Overview] * Loop Filters] === * Filters] === * Filters] *
+* link:working-with-ct-vision-in-salesforce.html#h2_1552458132[Feedback
+Loop Overview]
+* link:working-with-ct-vision-in-salesforce.html#h2__1484451922[Feedback
+Loop Filters]
+* link:working-with-ct-vision-in-salesforce.html#h3_717556108[Base
+Filters]
+* link:working-with-ct-vision-in-salesforce.html#h3_929593309[Advanced
+Filters]
+* link:working-with-ct-vision-in-salesforce.html#h2_1822655793[Working
 with Taken Photos]
-=== *
+* link:working-with-ct-vision-in-salesforce.html#h3_1235535035[Verify
 Recognized Products on Realogram]
 
 == 
@@ -22,12 +30,12 @@ Maximum 500 photos can be loaded at a time. More photos (another 500)
 will be loaded after clicking on the last page in the navigation
 panel.image:../Storage/ct-vision-ir-en-publication/Feedback%20Loop%20Tab%20v.3.png[image] +
 * Under the photo, the information specified for the Vision object in
-=== the
+the link:specifying-product-objects-and-fields.html#h3_1366151624[Photo
 Description] tab is displayed.
 * Click
 the image:../Storage/ct-vision-ir-en-publication/working-with-ct-vision-in-salesforce/realogram-icon.png[image]
 icon to open a photo for
-=== verifying
+verifying link:working-with-ct-vision-in-salesforce.html#h3_1235535035[its
 realogram and recognized products]. 
 * Click the checkbox above the desired photos and then click the *Create
 zip* button to build an archive with the desired photos.
@@ -136,7 +144,7 @@ Product List].
 
 Photos that met the filter criteria are displayed with the
 description. To customize the description, refer
-=== to
+to link:vision-product-list-field-reference.html[]https://help.customertimes.com/articles/project-ct-vision-en/specifying-product-objects-and-fields-1/a/h3_1366151624[Feedback
 Loop tab] in the **CT Vision Setup**.
 
  +
@@ -152,12 +160,12 @@ The following buttons are available under a photo.
 image:../Storage/ct-vision-ir-en-publication/Salesforce%20Realogram%20button%20v.2.png[image]
 
 Open a photo for
-=== verifying
+verifying link:working-with-ct-vision-in-salesforce.html#h3_1235535035[its
 realogram and recognized products].
 
 image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20Button%20v.2.png[image] +
 
-=== Open
+Open link:working-with-ct-vision-in-salesforce.html#h3_1017582017[the
 Shelf Product List] of the recognized products and their number on the
 shelves.
 
@@ -178,7 +186,7 @@ image:../Storage/ct-vision-ir-en-publication/checkbox-selected.png[image] +
 
 image:../Storage/ct-vision-ir-en-publication/tag-selection-icon.png[image]
 
-=== Add a
+Add a link:adding-photo-tags.html#h3__759435562[photo tag] by clicking
 in the upper right corner of the taken photo. +
 You can add only photo tags that are created for the same object and/or
 its record type. For example, if the photo was created for the Account

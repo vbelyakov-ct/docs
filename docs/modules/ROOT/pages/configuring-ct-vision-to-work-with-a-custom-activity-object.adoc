@@ -4,11 +4,17 @@ photos taken will be linked to that object to work on the *Feedback
 Loop* page. Visit records are still created for the selected Activity
 object.
 
-== == * Mobile Customization] === * Label] === * Lookup] *
+* link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h2__335662800[CT
+Mobile Customization]
+* link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3_395000743[System
+Label]
+* link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3__601076877[Activity
+Lookup]
+* link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h2_1769605814[CT
 Vision Setup]
-=== *
+* link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3__1047703678[CTM
 Settings: Visit Vision]
-=== *
+* link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3__706735509[Feedback
 Loop: Custom Filters]
 
 == 

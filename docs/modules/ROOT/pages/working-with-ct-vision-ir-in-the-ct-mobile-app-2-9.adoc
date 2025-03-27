@@ -18,7 +18,21 @@ In the CT Mobile app, a sales representative:
 
  +
 
-== == == == == == * a Photo of a Product Shelf] * Indicator] * Recognition Tools] === * Realogram] === * Product List] * Tags] * a Report Summary] *
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2__1221438961[Take
+a Photo of a Product Shelf]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_691734370[Status
+Indicator]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2__1442951234[Image
+Recognition Tools]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_2072273480[Clickable
+Realogram]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_1017582017[Shelf
+Product List]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_491461789[Photo
+Tags]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_1831185552[Create
+a Report Summary]
+* link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_566778463[Pictures
 Gallery]
 
 == [[h2__1221438961]] Take a Photo of a Product Shelf
@@ -83,7 +97,17 @@ visit.
 
 If needed, manage errors and products:
 
-== == 1.  Review products === with clickable realogram]. 2.  On === the Product List], add shelves, unrecognized products, and/or correct the amount of product on the shelf. 3.  Manage errors to the status indicator] on the photo in the *Miniatures* gallery. 4. Manage
+1.  Review products
+with link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_2072273480[the
+clickable realogram].
+2.  On
+the link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_1017582017[Shelf
+Product List], add shelves, unrecognized products, and/or correct the
+amount of product on the shelf.
+3.  Manage
+errors link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_691734370[according
+to the status indicator] on the photo in the *Miniatures* gallery.
+4.  Manage link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_491461789[photo
 tags].
 
 == 
@@ -195,7 +219,10 @@ Mobile Control Panel 2.0].
 
 If enabled, add a photo tag to the desired photos.
 
-== 1.  Tap a photo in the *Miniatures* gallery. 2.  Click on the photo tag icon on the selected photo. 3.  In the pop-up, tap to select tags from
+1.  Tap a photo in the *Miniatures* gallery.
+2.  Click on the photo tag icon on the selected photo.
+3.  In the pop-up, tap to select tags
+from link:7-specifying-photo-tags-2-9.html#h2_553985630[the list of
 available tags] to add them to a photo. +
 image:../Storage/ct-vision-ir-en-publication/Tags%2001.png[image]
 4.  Click image:../Storage/ct-vision-ir-en-publication/working-with-ct-vision-2021-03-24-1.png[image] to

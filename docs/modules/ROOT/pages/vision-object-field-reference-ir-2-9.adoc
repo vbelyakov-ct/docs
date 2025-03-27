@@ -82,7 +82,10 @@ if not specified. +
 |Filter Fields + |ctv__FilterFields__c + |Long Text Area(32768) + a|
 Applies only to CT Vision Salesforce.
 
-== Specify API names of the fields (in one string, comma separated) from the Vision object that should be displayed as filters in the separate section of the
+Specify API names of the fields (in one string, comma separated) from
+the Vision object that should be displayed as filters in the separate
+section of
+the link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2_1552458132[Picture
 Gallery]. The following field types cannot be used for filtering:
 
 * Text area

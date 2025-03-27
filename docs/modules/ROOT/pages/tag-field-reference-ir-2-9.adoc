@@ -1,6 +1,6 @@
 The Tag object is responsible for the photo tags that users can apply to
 the taken photos
-=== in
+in link:working-with-ct-vision-ir-in-salesforce-2-9.html#h3_491461789[Salesforce] and link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_491461789[the
 CT Mobile app].
 
 '''''

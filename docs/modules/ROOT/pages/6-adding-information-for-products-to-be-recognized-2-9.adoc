@@ -7,7 +7,13 @@ for
 the https://help.customertimes.com/articles/ct-orders-3-0/ct-orders-solution[CT
 Orders] solution.
 
-== == == * and Viewing Product Photos in Salesforce] * up Product Image Uploads] === * Products to Upload Their Images] *
+* link:6-adding-information-for-products-to-be-recognized-2-9.html#h2__1751244368[Adding
+and Viewing Product Photos in Salesforce]
+* link:6-adding-information-for-products-to-be-recognized-2-9.html#h2__518870114[Setting
+up Product Image Uploads]
+* link:6-adding-information-for-products-to-be-recognized-2-9.html#h3_1021024571[Filtering
+Products to Upload Their Images]
+* link:6-adding-information-for-products-to-be-recognized-2-9.html#h2_285464100[Testing
 Image Recognition]
 
 == 

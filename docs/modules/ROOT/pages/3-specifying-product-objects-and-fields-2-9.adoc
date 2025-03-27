@@ -17,7 +17,8 @@ information, refer to
 the https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-managed-package-update-to-v-3-54[CT
 Mobile Managed Package Update to v. 3.54] description. 
 
-== == * *
+* link:3-specifying-product-objects-and-fields-2-9.html#h2__1981203353[Authorization]
+* link:3-specifying-product-objects-and-fields-2-9.html#h2__1362989108[Product
 Object Setting]
 
  +

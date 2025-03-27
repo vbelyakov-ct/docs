@@ -7,7 +7,15 @@ link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html[the taken
 photos by the mobile user] in Salesforce. Go to the CT Vision app and
 open the *Photo Gallery* tab.
 
-== == == * Gallery Overview] * Gallery Filters] === * Filters] === * Filters] *
+* link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2_1552458132[Photo
+Gallery Overview]
+* link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2__1484451922[Photo
+Gallery Filters]
+* link:working-with-ct-vision-ir-in-salesforce-2-9.html#h3_717556108[Base
+Filters]
+* link:working-with-ct-vision-ir-in-salesforce-2-9.html#h3_929593309[Custom
+Filters]
+* link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2_1822655793[Working
 with Taken Photos]
 
 == 
@@ -131,7 +139,7 @@ image:../Storage/ct-vision-ir-en-publication/checkbox-selected.png[image] +
 
 image:../Storage/ct-vision-ir-en-publication/tag-selection-icon.png[image]
 
-=== Add a
+Add a link:7-specifying-photo-tags-2-9.html#h3__759435562[photo tag] by
 clicking in the upper right corner of the taken photo. +
 You can add only photo tags that are created for the same object and/or
 its record type. For example, if the photo was created for the Account

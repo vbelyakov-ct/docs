@@ -1,7 +1,13 @@
 Here you find a feature, the link to the corresponding article, and the
 version of CT Mobile since which the feature is available.
 
-== == == == * Vision for CT Mobile 2.9] * Vision for CT Mobile 2.6] * Vision for CT Mobile 2.5] *
+* link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874714[CT
+Vision for CT Mobile 2.9]
+* link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874713[CT
+Vision for CT Mobile 2.6]
+* link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_1172874716[CT
+Vision for CT Mobile 2.5]
+* link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_891547920[CT
 Vision for CT Mobile 2.4]
 
 == [[h2_1172874714]] CT Vision for CT Mobile 2.9
@@ -32,7 +38,7 @@ Image Recognition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Use
-=== the
+the link:working-with-ct-vision-in-the-ct-mobile-app.html#h3_1017582017[Shelf
 Product List] functionality to review recognized products on the
 shelves.
 ** The ability to use up to 3 custom fields to display with the help of
@@ -64,11 +70,18 @@ Image Recognition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 == 
-== * customized], add one or more tags to the taken photo. ** Tap a photo in the *Miniatures* gallery
+* link:specifying-product-objects-and-fields.html#h2_553985630[If customized], add one or more tags to the taken photo. ** Tap a photo in the *Miniatures* gallery
 add one or more tags].
 ** Review photos with tags in the *Miniatures* gallery.
 
-== == * link:vision-hint-field-reference.html[If specified], a mobile user will see product tips === the clickable realogram]. * new Collection mode] instead of the *Panorama* mode allows mobile users to take photos of large shelves. **
+* link:vision-hint-field-reference.html[If specified], a mobile user
+will see product tips
+=== 
+the clickable realogram].
+* link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1221438961[The
+new Collection mode] instead of the *Panorama* mode allows mobile users
+to take photos of large shelves.
+** link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1267691643[ARKit
 models] are supported in the *Collection* mode.
 
 == 
@@ -80,7 +93,9 @@ Activation
 === 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-== * link:configuring-ct-mobile-for-work-with-ct-vision.html[Add CT Vision to the menu] to take photos and recognize products in the CT Mobile app. *
+* link:configuring-ct-mobile-for-work-with-ct-vision.html[Add CT Vision
+to the menu] to take photos and recognize products in the CT Mobile app.
+* link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1221438961[Tap
 the CT Vision button] on the _Activity_ record to open the CT Vision
 module.
 
@@ -97,7 +112,20 @@ Image Recognition
 === Tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-== == * The *Standard Photo* and *Panorama* modes for taking photos of the products on the shelves. ** link:vision-shelf-field-reference.html[If specified], select the shelf type on the left side of the screen. ** link:vision-kpi-field-reference.html[Review shelf KPI]. ** Review recognized products === the clickable realogram]. * Manage photos in the *Miniatures* gallery. ** Photos are marked with color icons on the status]. ** In case of errors, delete, retake, or confirm a taken photo. *
+* The *Standard Photo* and *Panorama* modes for taking photos of the
+products on the shelves.
+** link:vision-shelf-field-reference.html[If specified], select the
+shelf type on the left side of the screen.
+** link:vision-kpi-field-reference.html[Review shelf KPI].
+** Review recognized products
+=== 
+the clickable realogram].
+* Manage photos in the *Miniatures* gallery.
+** Photos are marked with color
+icons link:working-with-ct-vision-in-the-ct-mobile-app.html#h2_691734370[based
+on the status].
+** In case of errors, delete, retake, or confirm a taken photo.
+* link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1221438961[Creating
 a Report Summary] for the _Activity_ record to review the actual and
 planned number of photos and shelf KPIs.
 
