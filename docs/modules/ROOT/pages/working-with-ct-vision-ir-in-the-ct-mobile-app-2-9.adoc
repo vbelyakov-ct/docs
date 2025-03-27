@@ -230,8 +230,9 @@ image:Shelf-Product-List.png[]
 . Tap *Save*.
 
 [[h2_491461789]]
-=== Photo Tags 
-+
+=== Photo Tags
+
+
 [NOTE]
 ====
 To enable photo tags for the CT Mobile application, add the *Tag*
@@ -241,7 +242,7 @@ Mobile Control
 Panel] / https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
 Mobile Control Panel 2.0].
 ====
-+
+
 
 If enabled, add a photo tag to the desired photos.
 
