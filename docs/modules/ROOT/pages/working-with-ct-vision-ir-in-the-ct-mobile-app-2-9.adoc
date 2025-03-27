@@ -295,12 +295,12 @@ image::working-with-ct-vision-2021-03-24.jpg[scaledwidth=70%]
 
 [[h2_566778463]]
 == Pictures Gallery
-+
+
 [NOTE]
 ====
 Realogram view is not available while seeing photos in Picture Gallery.
 ====
-+
+
 link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2__521416285[Add
 the Pictures gallery] to the object (e.g., _Account_) mobile layout to
 view photos that you have taken. +
@@ -313,7 +313,9 @@ if the link:vision-object-field-reference-ir-2-9.html[Enable Simple
 View] option is turned on. +
 * While viewing photos in a full size, tap
 the image:fullsize-photo-tag-icon.png[]
-icon to see the photo tags. +
+icon to see the photo tags.
+
++
 [NOTE]
 ====
 Photo tags are displayed according
@@ -323,5 +325,6 @@ that are also created for the Account object. Or, if a photo was created
 on the _Customer_ record type of the Account object, you will see only
 photo tags that are also created for the _Customer_ record type. 
 ====
++
 
 image:ctvision-ios-accounts-pictures-filter.png[]
