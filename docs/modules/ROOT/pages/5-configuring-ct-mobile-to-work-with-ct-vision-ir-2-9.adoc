@@ -1,4 +1,5 @@
 = 5. Configuring CT Mobile to Work with CT Vision IR 
+
 To use CT Vision IR as a module within the CT Mobile app, set up the
 integration on the *CT Mobile Control Panel*/**CT Mobile Control Panel
 2.0 **tab.
@@ -50,9 +51,10 @@ not be sent to the server.
 Specify the following to enable CT Vision IR logic within the CT Mobile
 app:
 
-[width="100%",cols="50%,50%",]
-|===
-|In CT Mobile Control Panel a|
+[tabs]
+====
+[In CT Mobile Control Panel a]
+--
 . Go
 to https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-general[CT
 Mobile Control Panel: General] tab.
@@ -66,8 +68,9 @@ Mobile Control Panel: Offline Objects] tab.
 . Add the objects used by the CT Vision IR module to
 the *Selected* field.
 . Click *Save*.
-
-|In CT Mobile Control Panel 2.0 a|
+--
+[In CT Mobile Control Panel 2.0 a]
+--
 . Go
 to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
 Mobile Control Panel 2.0: App Menu].
@@ -82,8 +85,8 @@ Vision IR module] and objects used as
 link:vision-object-field-reference-ir-2-9.html[Vision objects] to
 the *Selected* field.
 . Click *Save*. 
-
-|===
+--
+====
 
 The setup is complete.
 
