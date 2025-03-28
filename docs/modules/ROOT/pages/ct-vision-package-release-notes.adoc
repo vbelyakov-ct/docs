@@ -16,8 +16,8 @@ Settings]
 * link:ct-vision-package-release-notes.html#h3__1848120530[Image
 Recognition Tools]
 
-== [[h2__441053885]] CT Vision package v. 2.3.0.1 24 R1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[h2__441053885]]
+== CT Vision package v. 2.3.0.1 24 R1
 
 * The *Feedback Loop* tab is now
 https://help.customertimes.com/smart/project-ct-vision-lite-en/working-with-ct-vision-lite-in-salesforce-2-9/a/h2_1552458132[Photo
@@ -58,23 +58,20 @@ link:adding-photo-tags.html[Tags] tab.  
 ** link:adding-photo-tags.html#h2__117227442[Granular access management]
 to each photo tag.
 
-== 
-[[h2_1034579388]] CT Vision package v. 1.22 Autumn '21
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[h2_1034579388]]
+== CT Vision package v. 1.22 Autumn '21 link:ct-vision-package-release-notes.html#h2_1034579388[]
 
 [[h3__1717775038]]
-General Settings
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== General Settings link:ct-vision-package-release-notes.html#h3__1717775038[]
 
 * Use link:administrator-guide.html[the preconfigured permission
-set] for administrators to provide access to work with CT Vision. +
+set] for administrators to provide access to work with CT Vision.
 * UI improvements for the *CT Vision Setup* tab.
 * Set up additional CT Vision functionality by creating *CTM
 Settings* records of the following record type: 
 ** https://help.customertimes.com/smart/project-ct-vision-en/vision-tag-field-refernce[Vision
 Tag]
-** link:vision-visit-field-reference.html[Vision Visit] +
+** link:vision-visit-field-reference.html[Vision Visit]
 * Improvements for provider support.
 ** The *Vision Light* provider is supported. Use it when there is no
 need for image recognition functionality.
@@ -97,12 +94,10 @@ no link:configuring-ct-mobile-for-work-with-ct-vision.html#h2_395000743[Mobile
 ID is specified]. 
 ** The CG Cloud provider is added to the list of available providers.​
 
- +
+
 
 [[h3_1573181099]]
-Image Recognition Tools
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== Image Recognition Tools link:ct-vision-package-release-notes.html#h3_1573181099[]
 
 Improvements for the *Feedback Loop* functionality.
 
@@ -116,14 +111,11 @@ filter criteria].
 by link:working-with-ct-vision-in-salesforce.html#h3_491461789[adding
 the photo tags] to them.  
 
-== 
-[[h2__2005490110]] CT Vision package v. 1.10 Summer '21
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[h2__2005490110]]
+== CT Vision package v. 1.10 Summer '21 link:ct-vision-package-release-notes.html#h2__2005490110[]
 
 [[h3_1086671697]]
-General Settings
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== General Settings link:ct-vision-package-release-notes.html#h3_1086671697[]
 
 * link:specifying-product-objects-and-fields.html[Specify product
 settings] and link:setting-up-integration-with-the-image-recognition-providers.html[configure
@@ -147,9 +139,7 @@ display link:working-with-ct-vision-in-the-ct-mobile-app.html#h3_2072273480[in
 the clickable realogram].
 
 [[h3__1848120530]]
-Image Recognition Tools
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== Image Recognition Tools link:ct-vision-package-release-notes.html#h3__1848120530[]
 
 * The *link:working-with-ct-vision-in-the-ct-mobile-app.html[Feedback
 Loop]* tab helps you manage taken photos and verify recognition results.

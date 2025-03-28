@@ -1,15 +1,15 @@
 Click
-the image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20Button%20v.2.png[image]
+the image:Salesforce-Shelf-Product-List-Button-v.2.png[]
 button to
 open link:working-with-ct-vision-in-salesforce.html#h3_1017582017[the
 Shelf Product List] with recognized products to verify the product
-quantity on the shelves. +
+quantity on the shelves.
 To set up fields to display, refer
 to link:vision-product-list-field-reference.html[Vision Product List
 Field Reference].
 
-== 
-* The color mark next to the product is responsible for 
+* The color mark next to the product is responsible for
+link:working-with-ct-vision-in-the-ct-mobile-app.html#h2_691734370[the
 status of recognition].
 * Click the product:
 ** The selected products are framed in the photo.
@@ -20,11 +20,9 @@ status of recognition].
 *** Wrong product count
 *** Another issue
 
-image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20v.2.png[image]
+image:Salesforce-Shelf-Product-List-v.2.png[]
 
 [[h3_491461789]]
-Photo Tags link:corrections-in-shelf-product-list.html#h3_491461789[]
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 [width="100%",cols="50%,50%",]
 |=======================================================================
@@ -33,10 +31,10 @@ To add a photo tag:
 
 1.  Hover the cursor over the *Plus* icon in the upper right corner of
 the photo.
-2.  ​Select one or more photo tags. +
+2.  ​Select one or more photo tags.
 
 The tag is added.
 
 
-|image:../Storage/ct-vision-ir-en-publication/FBL%20Add%20Photo%20Tag%20v.2.png[image]
+|image:FBL-Add-Photo-Tag-v.2.png[]
 |=======================================================================

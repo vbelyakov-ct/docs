@@ -1,7 +1,7 @@
 In this section, learn now to install and initially configure the CT
 Vision IR:
 
- +
+
 
 link:installing-the-ct-vision-package.html[1. Installing the CT Vision
 Package]
@@ -24,4 +24,4 @@ CT Mobile to Work with CT Vision IR]
 link:adding-information-for-products-to-be-recognized.html[7. Adding
 Information for Products to be Recognized]
 
-link:adding-photo-tags.html[8. Specifying Photo Tags] +
+link:adding-photo-tags.html[8. Specifying Photo Tags]

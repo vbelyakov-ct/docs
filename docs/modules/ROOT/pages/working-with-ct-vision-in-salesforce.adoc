@@ -16,24 +16,23 @@ with Taken Photos]
 * link:working-with-ct-vision-in-salesforce.html#h3_1235535035[Verify
 Recognized Products on Realogram]
 
-== 
-[[h2_1552458132]] Feedback Loop Overview
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[h2_1552458132]]
+== Feedback Loop Overview link:working-with-ct-vision-in-salesforce.html#h2_1552458132[]
 
 The taken photos received from the CT Vision server will be displayed on
 the main screen, and the filters to apply on the right side of the page.
 
 * One page displays 20 photos. Use page navigation buttons in case of
 several pages and view the number of the received photos next to *Total
-Records*. +
+Records*.
 Maximum 500 photos can be loaded at a time. More photos (another 500)
 will be loaded after clicking on the last page in the navigation
-panel.image:../Storage/ct-vision-ir-en-publication/Feedback%20Loop%20Tab%20v.3.png[image] +
+panel.image:Feedback-Loop-Tab-v.3.png[]
 * Under the photo, the information specified for the Vision object in
 the link:specifying-product-objects-and-fields.html#h3_1366151624[Photo
 Description] tab is displayed.
 * Click
-the image:../Storage/ct-vision-ir-en-publication/working-with-ct-vision-in-salesforce/realogram-icon.png[image]
+the image:realogram-icon.png[]
 icon to open a photo for
 verifying link:working-with-ct-vision-in-salesforce.html#h3_1235535035[its
 realogram and recognized products]. 
@@ -44,25 +43,24 @@ zip* button to build an archive with the desired photos.
 * Click the checkbox above the desired photos and then click the **Post
 to Chatter **button to send a new message with attached photos to the
 Chatter.  You must select *Chatter Group(s)* to send the message. 
-image:../Storage/ct-vision-ir-en-publication/Feedback%20Loop%20Post%20to%20Chatter%20v.2.png[image]
+image:Feedback-Loop-Post-to-Chatter-v.2.png[]
 * Click the checkbox above the desired photos and then click
 the *Delete* button to delete the photo. You can also delete a photo by
 clicking
-the image:../Storage/ct-vision-ir-en-publication/delete-icon-gallery.png[image] icon
+the image:delete-icon-gallery.png[] icon
 in the photo gallery.
 * Click
-the image:../Storage/ct-vision-ir-en-publication/eye-icon.png[image]
+the image:eye-icon.png[]
 button to view the desired photo. In the opened viewer,
-click image:../Storage/ct-vision-ir-en-publication/gallery-right-arrow.png[image] and image:../Storage/ct-vision-ir-en-publication/gallery-left-arrow.png[image] buttons
+click image:gallery-right-arrow.png[] and image:gallery-left-arrow.png[] buttons
 to list other photos of the gallery.
 * Click
-the image:../Storage/ct-vision-ir-en-publication/tag-selection-icon.png[image]
-button and select the desired link:adding-photo-tags.html[photo tag]. +
-image:../Storage/ct-vision-ir-en-publication/tags-list.png[image]
+the image:tag-selection-icon.png[]
+button and select the desired link:adding-photo-tags.html[photo tag].
+image:tags-list.png[]
 
-== 
-[[h2__1484451922]] Feedback Loop Filters
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[h2__1484451922]]
+== Feedback Loop Filters link:working-with-ct-vision-in-salesforce.html#h2__1484451922[]
 
 [width="100%",cols="50%,50%",]
 |=======================================================================
@@ -70,7 +68,7 @@ a|
 Use filters on the right side of the *Feedback Loop* page to search the
 taken photos based on criteria.
 
- +
+
 
 To apply a filter, specify the required criteria and click the *Apply*
 button.
@@ -84,14 +82,12 @@ displayed. In this case, try to specify more filter criterias to narrow
 the search.
 
 [[h3_717556108]]
-Base Filters
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== Base Filters link:working-with-ct-vision-in-salesforce.html#h3_717556108[]
 
 * To search photos by a Vision object, select it in the **Select Vision
 Object** field.
 * To search photos by records of the Vision object, select them in
-the *Record Name* field. +
+the *Record Name* field.
 Vision objects and their records must be defined in the _CTM
 Settings_ record with the link:vision-visit-field-reference.html[Vision
 Visit] record type. 
@@ -109,34 +105,44 @@ only appropriate photos.
 uses the OR operator.
 
 [[h3_929593309]]
-Advanced Filters
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== Advanced Filters link:working-with-ct-vision-in-salesforce.html#h3_929593309[]
 
 Click *Advanced Search* to expand additional filter criteria. Use the
 following criteria:
 
-== 
-* Select the desired *Recognition Engine*. Only link:setting-up-integration-with-the-image-recognition-providers.html[configured] recognition engines are available for selection. * Select the specific *Activity* *Object* and *Activity Object Name*. * Select an Account that is linked to the *Activity* records. The filter uses the OR operator. ** Create a _CTM Settings_ record with the link:vision-account-object-field-reference.html[Vision Account] record type to add desired accounts to the picklist. ** Search an organization by a specific *Account Field Value* in the selected *Account Field*. * Specify the *Product* criteria: + ** Enter the unique ID of the product in the *Product Key Code* field. + For more information, refer to
+* Select the desired *Recognition Engine*. Only
+link:setting-up-integration-with-the-image-recognition-providers.html[configured]
+recognition engines are available for selection.
+* Select the specific *Activity* *Object* and *Activity Object Name*.
+* Select an Account that is linked to the *Activity* records. The filter
+uses the OR operator.
+** Create a _CTM Settings_ record with
+the link:vision-account-object-field-reference.html[Vision
+Account] record type to add desired accounts to the picklist.
+** Search an organization by a specific *Account Field Value* in the
+selected *Account Field*. 
+* Specify the *Product* criteria:
+** Enter the unique ID of the product in the *Product Key Code* field.
+For more information, refer to
+link:specifying-product-objects-and-fields.html#h2__1362989108[Product
 Object Settings].
 ** Select the *Product* record.
 ** Select the *Product Record Type*.
 ** Search a product by a specific *Product Field Value* in the selected
 *Product Field*.
 
- +
+
 
 Click *Apply* to save filters.
 
 
-|image:../Storage/ct-vision-ir-en-publication/Feedback%20Loop%20Filter%20v.3.png[image] +
+|image:Feedback-Loop-Filter-v.3.png[]
 |=======================================================================
 
 [[h2_1822655793]]
 
-== 
-[[h2_1822655793]] Working with Taken Photos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[h2_1822655793]]
+== Working with Taken Photos link:working-with-ct-vision-in-salesforce.html#h2_1822655793[]
 
 To make changes to recognized products, refer
 to link:corrections-in-shelf-product-list.html[Corrections in Shelf
@@ -147,23 +153,23 @@ description. To customize the description, refer
 to link:vision-product-list-field-reference.html[]https://help.customertimes.com/articles/project-ct-vision-en/specifying-product-objects-and-fields-1/a/h3_1366151624[Feedback
 Loop tab] in the **CT Vision Setup**.
 
- +
+
 
 The following buttons are available under a photo.
 
- +
+
 
 *Buttons*
 
 *Description*
 
-image:../Storage/ct-vision-ir-en-publication/Salesforce%20Realogram%20button%20v.2.png[image]
+image:Salesforce-Realogram-button-v.2.png[]
 
 Open a photo for
 verifying link:working-with-ct-vision-in-salesforce.html#h3_1235535035[its
 realogram and recognized products].
 
-image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20Button%20v.2.png[image] +
+image:Salesforce-Shelf-Product-List-Button-v.2.png[]
 
 Open link:working-with-ct-vision-in-salesforce.html#h3_1017582017[the
 Shelf Product List] of the recognized products and their number on the
@@ -173,21 +179,21 @@ shelves.
 * If products details have been verified, the green warning is
 displayed.
 
-image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20Button%202%20v.2.png[image]
+image:Salesforce-Shelf-Product-List-Button-2-v.2.png[]
 
-image:../Storage/ct-vision-ir-en-publication/Salesforce%20Shelf%20Product%20List%20Button%203%20v.2.png[image]
+image:Salesforce-Shelf-Product-List-Button-3-v.2.png[]
 
-image:../Storage/ct-vision-ir-en-publication/checkbox-unselected.png[image]
+image:checkbox-unselected.png[]
 
 Select a photo to delete it, to include it in a ZIP archive or send it
 to the Chatter users.
 
-image:../Storage/ct-vision-ir-en-publication/checkbox-selected.png[image] +
+image:checkbox-selected.png[]
 
-image:../Storage/ct-vision-ir-en-publication/tag-selection-icon.png[image]
+image:tag-selection-icon.png[]
 
 Add a link:adding-photo-tags.html#h3__759435562[photo tag] by clicking
-in the upper right corner of the taken photo. +
+in the upper right corner of the taken photo.
 You can add only photo tags that are created for the same object and/or
 its record type. For example, if the photo was created for the Account
 object, you can add only photo tags that are also created for the
@@ -195,16 +201,14 @@ Account object. Or, if the photo was created for the _Customer_ record
 type of the Account object, you can add only photo tags that are also
 created for the _Customer_ record type.
 
-image:../Storage/ct-vision-ir-en-publication/Photos%20on%20the%20Feedback%20Loop%20page%20v.3.png[image]
+image:Photos-on-the-Feedback-Loop-page-v.3.png[]
 
- +
 
- +
+
+
 
 [[h3_1235535035]]
-Verify Recognized Products on Realogram
-=== 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=== Verify Recognized Products on Realogram link:working-with-ct-vision-in-salesforce.html#h3_1235535035[]
 
 Available only for
 link:setting-up-integration-with-the-image-recognition-providers.html[providers
@@ -212,10 +216,10 @@ with recognition]. If the _vision_light_ provider is selected, the
 realogram is not available.
 
 Click the 
-image:../Storage/ct-vision-ir-en-publication/Salesforce%20Realogram%20button%20v.2.png[image] button
+image:Salesforce-Realogram-button-v.2.png[] button
 to open a *Preview* window.
 
- +
+
 
 Use the navigation arrows to scroll photos of the current *Activity*
 record.
@@ -225,24 +229,24 @@ record.
 located on the *Fact* tab.
 * Zoom a photo if needed.
 
-image:../Storage/ct-vision-ir-en-publication/The%20Preview%20window%20with%20the%20Realogram.png[image]
+image:The-Preview-window-with-the-Realogram.png[]
 
- +
+
 
 The following tools are available:
 
- +
+
 
 [width="100%",cols="34%,33%,33%",]
 |=======================================================================
-|*Tool* |*Example* + |*Description*
+|*Tool* |*Example* |*Description*
 
 |Filters a|
-image:../Storage/ct-vision-ir-en-publication/FBL%20Realogram%20Filters.png[image]
+image:FBL-Realogram-Filters.png[]
 
  a|
 Click
-the image:../Storage/ct-vision-ir-en-publication/Realogram%20Open%20Filters%20.png[image]
+the image:Realogram-Open-Filters-.png[]
 button and select details to display.
 
 * Recognized *Products*
@@ -250,7 +254,7 @@ button and select details to display.
 * *Prices*
 * *Shelves*
 
- +
+
 
 Select the *Show Probability* button to display the percentage of
 probability that the product was recognized correctly.
@@ -259,33 +263,33 @@ probability that the product was recognized correctly.
 * Only the product with the same or higher probability will be framed on
 a realogram.
 
-|Information + a|
-image:../Storage/ct-vision-ir-en-publication/FBL%20Realogram%20Information.png[image]
+|Information a|
+image:FBL-Realogram-Information.png[]
 
  |Click
-the image:../Storage/ct-vision-ir-en-publication/information_vision.png[image]
-button to review the total number of recognized products and prices. +
+the image:information_vision.png[]
+button to review the total number of recognized products and prices.
 
-|Delete a photo + a|
+|Delete a photo a|
 —
 
  |Click
-the image:../Storage/ct-vision-ir-en-publication/Delete%20Realogram%20Photo.png[image]
-button to remove a photo from the CT Vision server.  +
+the image:Delete-Realogram-Photo.png[]
+button to remove a photo from the CT Vision server. 
 
-|Share +
-|image:../Storage/ct-vision-ir-en-publication/FBL%20Realogram%20Product%20Share%20v.2.png[image]
+|Share
+|image:FBL-Realogram-Product-Share-v.2.png[]
 a|
-Verify the shelf share. +
+Verify the shelf share.
 
 * Specify the color that highlights a shelf on a realogram in Salesforce
-and the CT Mobile app. +
-image:../Storage/ct-vision-ir-en-publication/Shelf%20Color.png[image] +
+and the CT Mobile app.
+image:Shelf-Color.png[]
 * Expand the shelf to review products. Only the selected shelf will be
 highlighted on the realogram.
 
 |Product List a|
-image:../Storage/ct-vision-ir-en-publication/FBL%20Realogram%20Product%20List.png[image]
+image:FBL-Realogram-Product-List.png[]
 
- |Review the list of recognized products and their number on shelves. +
+ |Review the list of recognized products and their number on shelves.
 |=======================================================================

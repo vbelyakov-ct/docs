@@ -8,7 +8,7 @@ Record Type API Name: VisionKPI
 '''''
 
 The following fields must be created on the Vision Settings object for
-this record type: +
+this record type:
 
 [width="100%",cols="25%,25%,25%,25%",]
 |=======================================================================
