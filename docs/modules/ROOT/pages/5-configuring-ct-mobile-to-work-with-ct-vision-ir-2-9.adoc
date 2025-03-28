@@ -27,7 +27,7 @@ stored on a mobile device up to 7 days.
 
 
 For more information, go to
-the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[System
+the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[System
 Label] article.
 
 [[h2__242242597]]
@@ -53,14 +53,14 @@ app:
 |=======================================================================
 |In CT Mobile Control Panel a|
 1.  Go
-to https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-general[CT
+to https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-general[CT
 Mobile Control Panel: General] tab.
 2.  Under the *Object Mappings* section, specify the API name of
 the Product object used by CT Vision IR in the *Product Object API
 Name* field.
 3.  Click *Save*.
 4.  Go
-to https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-offline-objects[CT
+to https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-offline-objects[CT
 Mobile Control Panel: Offline Objects] tab.
 5.  Add the objects used by the CT Vision IR module to
 the *Selected* field.
@@ -68,12 +68,12 @@ the *Selected* field.
 
 |In CT Mobile Control Panel 2.0 a|
 1.  Go
-to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
+to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
 Mobile Control Panel 2.0: App Menu].
 2.  Select the required profile in the *Profile* picklist. To apply
 settings to all the profiles, select *General Settings*.
 3.  Go
-to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
+to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
 Mobile Control Panel 2.0: Offline Objects] tab.
 4.  Add the product objects
 link:3-specifying-product-objects-and-fields-2-9.html[used by the CT
@@ -117,7 +117,7 @@ In CT Mobile Control Panel 2.0
 
  a|
 1.  Go
-to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
+to https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-app-menu-new[CT
 Mobile Control Panel 2.0: App Menu] tab.
 2.  Select the required profile in the *Profile* picklist. To apply
 settings to all the profiles, select *General Settings*.

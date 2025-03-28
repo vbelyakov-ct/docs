@@ -227,7 +227,7 @@ To enable photo tags for the CT Mobile application, add the *Tag*
 offline object in the
 https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects[CT
 Mobile Control
-Panel]/https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
+Panel] / https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
 Mobile Control Panel 2.0].
 
 If enabled, add a photo tag to the desired photos.

@@ -125,7 +125,7 @@ number of photos is taken from the *Plan* field of the
 https://help.customertimes.com/smart/project-ct-vision-lite-en/vision-object-field-reference[Vision
 Object] record. Otherwise, the planned number is the sum of the values
 from the *Plan* field
-of the https://help.customertimes.com/smart/project-ct-vision-lite-en/vision-shelf-field-reference-2-9[Vision
+of the https://help.customertimes.com/smart/project-ct-vision-lite-en/vision-shelf-field-reference-2-9[Vision
 Shelf] records.
 ** In the *Pictures Absence*, verify shelves, for which there is no
 photo or the actual number of photos is less than the number specified
@@ -245,7 +245,7 @@ To enable photo tags for the CT Mobile application, add the *Tag*
 offline object in the
 https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects[CT
 Mobile Control
-Panel]/https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
+Panel] / https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-offline-objects-new[CT
 Mobile Control Panel 2.0].
 
 If enabled, add a photo tag to the desired photos.

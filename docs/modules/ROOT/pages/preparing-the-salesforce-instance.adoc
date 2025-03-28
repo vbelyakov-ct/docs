@@ -66,7 +66,7 @@ CT Vision IR functionalities:  
 
 Click the link to view the required fields and their description for the
 corresponding record type. To create record
-types, https://help.salesforce.com/s/articleView?id=sf.creating_record_types.htm&type=5[refer
+types, https://help.salesforce.com/s/articleView?id=sf.creating_record_types.htm&type=5[refer
 to Salesforce Help].
 
 [[h3_585696333]]

@@ -97,7 +97,7 @@ Object** field the Activity object is selected (or any object set up as
 the _Activity_ in the
 https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-calendar[CT
 Mobile Control Panel:
-Calendar]/https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-activities-new[CT
+Calendar] / https://help.customertimes.com/smart/project-ct-mobile-en/ct-mobile-control-panel-activities-new[CT
 Mobile Control Panel 2.0: Activities]). 
 * Use the *Tags* filter to select the desired photo tag(s) and display
 only appropriate photos.
@@ -137,6 +137,7 @@ Click *Apply* to save filters.
 
 
 |image:Feedback-Loop-Filter-v.3.png[]
+
 |=======================================================================
 
 [[h2_1822655793]]

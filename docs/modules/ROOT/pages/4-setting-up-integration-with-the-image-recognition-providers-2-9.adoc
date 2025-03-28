@@ -30,7 +30,7 @@ value for the image recognition provider.
 The list of available providers in the *Recognition Engine* picklist:
 
 * CG Cloud Einstein. This provider is used in case of integration
-with https://help.customertimes.com/articles/ct-mobile-ios-en/cg-cloud[the
+with https://help.customertimes.com/articles/ct-mobile-ios-en/cg-cloud[the
 CG Cloud solution].
 * CT Vision
 * EasyPicky

@@ -36,7 +36,7 @@ Mobile Id.
 
 
 For more information, go to
-the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[System
+the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[System
 Label] article.
 
 [[h3__601076877]]
@@ -44,7 +44,7 @@ Label] article.
 
 Create a field with the *Lookup* type, for example, ActivityId__c, on
 the CustomMeeting__c object to link it with the _Activity_ specified on
-the https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-calendar/a/h3_1397263211[CT
+the https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-calendar/a/h3_1397263211[CT
 Mobile Control Panel: Calendar] tab. 
 
 [[h2_1769605814]]

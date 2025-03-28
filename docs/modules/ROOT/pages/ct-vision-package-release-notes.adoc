@@ -24,7 +24,7 @@ https://help.customertimes.com/smart/project-ct-vision-lite-en/working-with-ct-v
 Gallery] and has updated interface to be more convenient and
 user-friendly, including:
 ** You can specify which *Interface Fields* of
-the https://help.customertimes.com/articles/ct-vision-lite-en/vision-object-field-reference[Vision
+the https://help.customertimes.com/articles/ct-vision-lite-en/vision-object-field-reference[Vision
 Object] are displayed under photos in the *Photo Gallery*.
 ** https://help.customertimes.com/smart/project-ct-vision-lite-en/working-with-ct-vision-lite-in-salesforce-2-9/a/h2__1484451922[Filtering]
 by tags, date, users, and user managers. Also, you can create your own
@@ -38,7 +38,7 @@ for desired object record. Also, you can add *Photo Carousel* component
 to view photos taken for this object record and its child records. 
 * Upgraded data model:
 ** CTM Settings object is
-now https://help.customertimes.com/smart/project-ct-vision-lite-en/ctm-settings-field-reference-1[Vision
+now https://help.customertimes.com/smart/project-ct-vision-lite-en/ctm-settings-field-reference-1[Vision
 Settings].
 ** Any object, not only Activity objects, can now be a
 https://help.customertimes.com/smart/project-ct-vision-lite-en/vision-object-field-reference[Vision]
