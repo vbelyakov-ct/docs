@@ -19,7 +19,7 @@ Filters]
 with Taken Photos]
 
 [[h2_1552458132]]
-== Photo Gallery Overview link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2_1552458132[]
+== Photo Gallery Overview 
 
 The taken photos received from the CT Vision server will be displayed on
 the main screen, and the filters to apply on the right side of the page.
@@ -62,7 +62,7 @@ image:tags-list.png[]
 
 
 [[h2__1484451922]]
-== Photo Gallery Filters link:working-with-ct-vision-ir-in-salesforce-2-9.html#h2__1484451922[]
+== Photo Gallery Filters 
 
 [width="100%",cols="50%,50%",]
 |=======================================================================
@@ -91,7 +91,7 @@ only appropriate photos.
 * If needed, specify *User* and *User Manager*.
 
 [[h3_929593309]]
-=== Custom Filters link:working-with-ct-vision-ir-in-salesforce-2-9.html#h3_929593309[]
+=== Custom Filters 
 
 If the *Filter Fields* are specified in the
 link:vision-object-field-reference-ir-2-9.html[Vision object], you can

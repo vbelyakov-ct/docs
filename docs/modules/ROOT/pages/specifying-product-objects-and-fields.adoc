@@ -23,7 +23,7 @@ Filters]
 image:CT-Vision-General-Configuration.png[]
 
 [[h2__1981203353]]
-== Authorization link:specifying-product-objects-and-fields.html#h2__1981203353[]
+== Authorization 
 
 If the Salesforce org was not yet registered on the CT Vision service
 side, click the *Authorize* button in the *General Configuration*
@@ -52,7 +52,7 @@ the https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-managed-
 Mobile Managed Package Update to v. 3.54] description.
 
 [[h2__1362989108]]
-== Product Object Setting link:specifying-product-objects-and-fields.html#h2__1362989108[]
+== Product Object Setting 
 
 To specify the corresponding Product object:
 
@@ -84,7 +84,7 @@ is available for all required users:
 image:about-ct-vision-2021-12-21.png[]
 
 [[h2__2130197288]]
-== Product Image Setting link:specifying-product-objects-and-fields.html#h2__2130197288[]
+== Product Image Setting 
 
 Select fields of the Product Image object that store all required
 information to send them to the CT Vision server to train the provider's
@@ -105,7 +105,7 @@ The setup is complete.
 [[h2_553985630]]
 
 [[h2_166351641]]
-== Feedback Loop link:specifying-product-objects-and-fields.html#h2_166351641[]
+== Feedback Loop 
 
 Specify the fields to display under the taken photo on the
 link:working-with-ct-vision-in-salesforce.html[Feedback Loop] page.
@@ -116,7 +116,7 @@ custom Activity object] is displayed under the taken photo by default
 and cannot be removed or replaced.
 
 [[h3_1366151624]]
-=== Photo Description link:specifying-product-objects-and-fields.html#h3_1366151624[]
+=== Photo Description 
 
 To set up fields to display:
 
@@ -135,7 +135,7 @@ Activity object if needed.
 setting.
 
 [[h3_1711109790]]
-=== Custom Filters link:specifying-product-objects-and-fields.html#h3_1711109790[]
+=== Custom Filters 
 
 Specify desired criteria to filter records for the selected Activity
 object on the *Feedback Loop* page. Criteria are specified by the help

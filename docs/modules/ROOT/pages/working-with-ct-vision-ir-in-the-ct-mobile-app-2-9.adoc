@@ -119,7 +119,7 @@ link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_1070541282[Repor
 Summary].
 
 [[h2_691734370]]
-== Status Indicator link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_691734370[]
+== Status Indicator 
 
 The statuses can acquire the following values:
 
@@ -161,7 +161,7 @@ the photo is physically on the server.
 image:working-with-ct-vision-2021-03-24-2.png[]
 
 [[h2__1442951234]]
-== Image Recognition Tools link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2__1442951234[]
+== Image Recognition Tools 
 
 Review the taken photos and clarify the details of the recognized
 products.
@@ -171,7 +171,7 @@ products.
 Tap the desired photo in the *Miniatures* gallery to open it.
 
 [[h3_2072273480]]
-=== Clickable Realogram link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_2072273480[]
+=== Clickable Realogram 
 
 To view the clickable realogram:
 
@@ -200,7 +200,7 @@ image:working-with-ct-vision-2021-03-24-2.jpg[]
 [[h2__41293257]]
 
 [[h3_1017582017]]
-=== Shelf Product List link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h3_1017582017[]
+=== Shelf Product List 
 
 To view the Shelf Product list:
 
@@ -221,7 +221,7 @@ image:Shelf-Product-List.png[]
 3.  Tap *Save*.
 
 [[h2_491461789]]
-== Photo Tags link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_491461789[]
+== Photo Tags 
 
 To enable photo tags for the CT Mobile application, add the *Tag*
 offline object in the

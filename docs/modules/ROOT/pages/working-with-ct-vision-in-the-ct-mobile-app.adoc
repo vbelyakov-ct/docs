@@ -34,7 +34,7 @@ Tags]
 Gallery]
 
 [[h2__1221438961]]
-== Create a Report Summary link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1221438961[]
+== Create a Report Summary 
 
 If the link:vision-visit-field-reference.html[Enable Simple View] option
 is enabled, the header with the report data (the actual and planned
@@ -137,7 +137,7 @@ the link:vision-shelf-field-reference.html[Visit Shelf] record type.
 image:working-with-ct-vision-2021-03-24.jpg[]
 
 [[h2_691734370]]
-== Status Indicator link:working-with-ct-vision-in-the-ct-mobile-app.html#h2_691734370[]
+== Status Indicator 
 
 The statuses can acquire the following values:
 
@@ -179,7 +179,7 @@ the photo is physically on the server.
 image:working-with-ct-vision-2021-03-24-2.png[]
 
 [[h2__1442951234]]
-== Image Recognition Tools link:working-with-ct-vision-in-the-ct-mobile-app.html#h2__1442951234[]
+== Image Recognition Tools 
 
 Review the taken photos and clarify the details of the recognized
 products.
@@ -189,7 +189,7 @@ products.
 Tap the desired photo in the *Miniatures* gallery to open it.
 
 [[h3_2072273480]]
-=== Clickable Realogram link:working-with-ct-vision-in-the-ct-mobile-app.html#h3_2072273480[]
+=== Clickable Realogram 
 
 To view the clickable realogram:
 
@@ -215,7 +215,7 @@ go back to taking photo mode.
 image:working-with-ct-vision-2021-03-24-2.jpg[]
 
 [[h3_1017582017]]
-=== Shelf Product List link:working-with-ct-vision-in-the-ct-mobile-app.html#h3_1017582017[]
+=== Shelf Product List 
 
 To view the Shelf Product list:
 
@@ -239,7 +239,7 @@ image:Shelf-Product-List.png[]
 3.  Tap *Save*.
 
 [[h2_491461789]]
-== Photo Tags link:working-with-ct-vision-in-the-ct-mobile-app.html#h2_491461789[]
+== Photo Tags 
 
 To enable photo tags for the CT Mobile application, add the *Tag*
 offline object in the
@@ -267,7 +267,7 @@ image:Tags-02.png[]
 [[h2__1267691643]]
 
 [[h2_566778463]]
-== Pictures Gallery link:working-with-ct-vision-in-the-ct-mobile-app.html#h2_566778463[]
+== Pictures Gallery 
 
 link:configuring-ct-mobile-for-work-with-ct-vision.html#h2__521416285[Add
 the Pictures gallery] to the _Account_ mobile layout to view photos that

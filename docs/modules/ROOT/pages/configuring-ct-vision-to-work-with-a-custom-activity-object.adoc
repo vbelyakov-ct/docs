@@ -18,14 +18,14 @@ Settings: Visit Vision]
 Loop: Custom Filters]
 
 [[h2__335662800]]
-== CT Mobile Customization link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h2__335662800[]
+== CT Mobile Customization 
 
 Check that the Activity object is specified on the
 https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-panel-calendar/a/h3_1397263211[CT
 Mobile Control Panel: Calendar] tab.
 
 [[h3_395000743]]
-=== System Label link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3_395000743[]
+=== System Label 
 
 Create the MobileId__c field on the desired object, for
 example, CustomMeeting__c, in order to identify whether a record has
@@ -40,7 +40,7 @@ the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[Syste
 Label] article.
 
 [[h3__601076877]]
-=== Activity Lookup link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3__601076877[]
+=== Activity Lookup 
 
 Create a field with the *Lookup* type, for example, ActivityId__c, on
 the CustomMeeting__c object to link it with the _Activity_ specified on
@@ -48,10 +48,10 @@ the https://help.customertimes.com/articles/ct-mobile-ios-en/ct-mobile-control-
 Mobile Control Panel: Calendar] tab. 
 
 [[h2_1769605814]]
-== CT Vision Setup link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h2_1769605814[]
+== CT Vision Setup 
 
 [[h3__1047703678]]
-=== CTM Settings: Visit Vision link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3__1047703678[]
+=== CTM Settings: Visit Vision 
 
 Specify the desired object as the Activity object to display the *CT
 Vision* button and take photos for recognition:
@@ -67,7 +67,7 @@ available link:vision-visit-field-reference.html[here].
 The setup is complete.
 
 [[h3__706735509]]
-=== Feedback Loop: Custom Filters link:configuring-ct-vision-to-work-with-a-custom-activity-object.html#h3__706735509[]
+=== Feedback Loop: Custom Filters 
 
 To have the ability to filter records of the custom object on the
 *Feedback Loop* page and set up the order of its records:

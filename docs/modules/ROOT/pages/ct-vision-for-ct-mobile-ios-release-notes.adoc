@@ -86,10 +86,10 @@ to take photos of large shelves.
 models] are supported in the *Collection* mode.
 
 [[h2_891547920]]
-== CT Vision for CT Mobile 2.4 link:ct-vision-for-ct-mobile-ios-release-notes.html#h2_891547920[]
+== CT Vision for CT Mobile 2.4 
 
 [[h3_2077060874]]
-=== Activation link:ct-vision-for-ct-mobile-ios-release-notes.html#h3_2077060874[]
+=== Activation 
 
 * link:configuring-ct-mobile-for-work-with-ct-vision.html[Add CT Vision
 to the menu] to take photos and recognize products in the CT Mobile app.

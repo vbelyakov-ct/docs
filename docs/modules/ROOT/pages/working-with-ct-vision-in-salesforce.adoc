@@ -17,7 +17,7 @@ with Taken Photos]
 Recognized Products on Realogram]
 
 [[h2_1552458132]]
-== Feedback Loop Overview link:working-with-ct-vision-in-salesforce.html#h2_1552458132[]
+== Feedback Loop Overview 
 
 The taken photos received from the CT Vision server will be displayed on
 the main screen, and the filters to apply on the right side of the page.
@@ -60,7 +60,7 @@ button and select the desired link:adding-photo-tags.html[photo tag].
 image:tags-list.png[]
 
 [[h2__1484451922]]
-== Feedback Loop Filters link:working-with-ct-vision-in-salesforce.html#h2__1484451922[]
+== Feedback Loop Filters 
 
 [width="100%",cols="50%,50%",]
 |=======================================================================
@@ -82,7 +82,7 @@ displayed. In this case, try to specify more filter criterias to narrow
 the search.
 
 [[h3_717556108]]
-=== Base Filters link:working-with-ct-vision-in-salesforce.html#h3_717556108[]
+=== Base Filters 
 
 * To search photos by a Vision object, select it in the **Select Vision
 Object** field.
@@ -105,7 +105,7 @@ only appropriate photos.
 uses the OR operator.
 
 [[h3_929593309]]
-=== Advanced Filters link:working-with-ct-vision-in-salesforce.html#h3_929593309[]
+=== Advanced Filters 
 
 Click *Advanced Search* to expand additional filter criteria. Use the
 following criteria:
@@ -142,7 +142,7 @@ Click *Apply* to save filters.
 [[h2_1822655793]]
 
 [[h2_1822655793]]
-== Working with Taken Photos link:working-with-ct-vision-in-salesforce.html#h2_1822655793[]
+== Working with Taken Photos 
 
 To make changes to recognized products, refer
 to link:corrections-in-shelf-product-list.html[Corrections in Shelf
@@ -208,7 +208,7 @@ image:Photos-on-the-Feedback-Loop-page-v.3.png[]
 
 
 [[h3_1235535035]]
-=== Verify Recognized Products on Realogram link:working-with-ct-vision-in-salesforce.html#h3_1235535035[]
+=== Verify Recognized Products on Realogram 
 
 Available only for
 link:setting-up-integration-with-the-image-recognition-providers.html[providers

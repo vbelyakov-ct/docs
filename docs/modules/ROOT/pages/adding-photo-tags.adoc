@@ -51,7 +51,7 @@ side:
 image:ctv-editing-tag.png[]
 
 [[h2__117227442]]
-== Managing Access to Photo Tags link:adding-photo-tags.html#h2__117227442[]
+== Managing Access to Photo Tags 
 
 To allow a user working with the specific photo tag
 in link:working-with-ct-vision-in-salesforce.html[Salesforce], link:working-with-ct-vision-in-the-ct-mobile-app.html[CT

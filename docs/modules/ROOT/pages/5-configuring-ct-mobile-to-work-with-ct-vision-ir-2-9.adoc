@@ -14,7 +14,7 @@ CT Vision to CT Mobile app]
 Pictures Gallery to the Mobile Layout]
 
 [[h2_395000743]]
-== System Label link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2_395000743[]
+== System Label 
 
 Not in use in case of the integration with the CG Cloud solution.
 
@@ -31,7 +31,7 @@ the https://help.customertimes.com/articles/ct-mobile-ios-en/system-label[Syste
 Label] article.
 
 [[h2__242242597]]
-== JSON Web Token link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2__242242597[]
+== JSON Web Token 
 
 Photos taken in CT Mobile using the CT Vision IR module are sent to the
 server. To connect to the server, the CT Mobile app sends that pair of
@@ -44,7 +44,7 @@ not be sent to the server.
 * The generated JSON Web Token lifetime is 1 year.
 
 [[h2_1279472645]]
-== Specify CT Vision Objects to Use in the CT Mobile App link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2_1279472645[]
+== Specify CT Vision Objects to Use in the CT Mobile App 
 
 Specify the following to enable CT Vision IR logic within the CT Mobile
 app:
@@ -87,7 +87,7 @@ the *Selected* field.
 The setup is complete.
 
 [[h2__59853629]]
-== Add CT Vision to CT Mobile app link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2__59853629[]
+== Add CT Vision to CT Mobile app 
 
 To add the CT Vision IR module to the
 https://help.customertimes.com/articles/ct-mobile-ios-en/app-menu[application
@@ -130,7 +130,7 @@ settings to all the profiles, select *General Settings*.
 The CT Vision IR module is added to the CT Mobile app.
 
 [[h2__521416285]]
-== Add Pictures Gallery to the Mobile Layout link:5-configuring-ct-mobile-to-work-with-ct-vision-ir-2-9.html#h2__521416285[]
+== Add Pictures Gallery to the Mobile Layout 
 
 link:working-with-ct-vision-ir-in-the-ct-mobile-app-2-9.html#h2_566778463[Pictures] allows
 users to view the photos they have taken on an object record details
