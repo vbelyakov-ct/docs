@@ -106,7 +106,7 @@ Mobile Control Panel: App Menu] tab.
 *General Settings* will be applied to all the profiles without
 individual settings.
 3.  Click
-the image:62562571.png[]
+the image:../../../../images/62562571.png[]
 button to open the *Add menu item* tool.
 4.  Click *Add custom* and enter _ctvision_ in the appeared field.
 5.  Click *Add*.

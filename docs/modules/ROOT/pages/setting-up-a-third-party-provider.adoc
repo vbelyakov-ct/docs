@@ -13,15 +13,15 @@ photo tags].
 2.  Specify the *Provider Endpoint*.
 3.  Activate the provider.
 5.  Click *Add Provider*.
-image:Add-Third-Party-Provider.png[]
+image:../../../../images/Add-Third-Party-Provider.png[]
 6.  Repeat steps 3–5 to add more models if necessary.
 7.  Click the
-image:about-ct-vision-2021-07-13-1.png[] button.
+image:../../../../images/about-ct-vision-2021-07-13-1.png[] button.
 8.  In the *Provider List* window:
 1.  Click *Active* to activate the desired providers.
-image:Provider-List.png[]
+image:../../../../images/Provider-List.png[]
 2.  Click
-the image:Screenshot-2021-08-11-at-17.27.33.png[] button
+the image:../../../../images/Screenshot-2021-08-11-at-17.27.33.png[] button
 to *Change* or *Delete* the *Provider* if necessary.
 1.  Edit the *Username* and *Password*.
 2.  Verify the *Provider Endpoint*.
@@ -34,4 +34,4 @@ The third-party provider is added.
 * Specify link:setting-up-integration-with-the-image-recognition-providers.html#h2_1620541365[product
 fields].
 
-image:Third-Party-Provider-Connection.png[]
+image:../../../../images/Third-Party-Provider-Connection.png[]
